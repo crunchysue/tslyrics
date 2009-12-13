@@ -1,0 +1,415 @@
+TTaylorSwift
+v7
+r0
+t282343598.593695
+cCheck dependencies
+cProcessInfoPlistFile /Users/sue/iDev/TaylorSwift/build/Debug-iphonesimulator/TaylorSwift.app/Info.plist TaylorSwift-Info.plist
+cCompileXIB /Users/sue/iDev/TaylorSwift/FlipsideView.xib
+cCompileXIB /Users/sue/iDev/TaylorSwift/MainView.xib
+cCompileXIB /Users/sue/iDev/TaylorSwift/MainWindow.xib
+cCpResource build/Debug-iphonesimulator/TaylorSwift.app/TimMcGraw.html TimMcGraw.html
+cProcessPCH /var/folders/lk/lk6jBUK1EtmBa5R34Rl9U++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaylorSwift_Prefix-bbbiebgppccyoeaxwvxuovudowzy/TaylorSwift_Prefix.pch.gch TaylorSwift_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/Objects-normal/i386/main.o /Users/sue/iDev/TaylorSwift/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/Objects-normal/i386/TaylorSwiftAppDelegate.o /Users/sue/iDev/TaylorSwift/Classes/TaylorSwiftAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/Objects-normal/i386/FlipsideView.o /Users/sue/iDev/TaylorSwift/Classes/FlipsideView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/Objects-normal/i386/MainView.o /Users/sue/iDev/TaylorSwift/Classes/MainView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/Objects-normal/i386/MainViewController.o /Users/sue/iDev/TaylorSwift/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/Objects-normal/i386/FlipsideViewController.o /Users/sue/iDev/TaylorSwift/Classes/FlipsideViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk
+c000000004AD10D7700000000000000EE
+t1255214455
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004ABDC853000000000026EE30
+t1253951571
+s2551344
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004ABDC952000000000027E880
+t1253951826
+s2615424
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004ABDC93F0000000000001355
+t1253951807
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004ABDEE1D0000000000000788
+t1253961245
+s1928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004ABDEEE200000000016721E0
+t1253961442
+s23536096
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/Availability.h
+c000000004ABDCA4700000000000019F9
+t1253952071
+s6649
+
+N/Users/sue/iDev/TaylorSwift/Classes/FlipsideView.h
+c000000004B23FB8400000000000000BA
+t1260649348
+s186
+
+N/Users/sue/iDev/TaylorSwift/Classes/FlipsideView.m
+c000000004B23FB8400000000000001BA
+t1260649348
+s442
+i"FlipsideView.h"
+
+N/Users/sue/iDev/TaylorSwift/Classes/FlipsideViewController.h
+c000000004B23FF0B000000000000022D
+t1260650251
+s557
+
+N/Users/sue/iDev/TaylorSwift/Classes/FlipsideViewController.m
+c000000004B24012A00000000000005EE
+t1260650794
+s1518
+i"FlipsideViewController.h"
+
+N/Users/sue/iDev/TaylorSwift/Classes/MainView.h
+c000000004B23FB8400000000000000CA
+t1260649348
+s202
+i<UIKit/UIKit.h>
+
+N/Users/sue/iDev/TaylorSwift/Classes/MainView.m
+c000000004B23FB8400000000000001AE
+t1260649348
+s430
+i"MainView.h"
+
+N/Users/sue/iDev/TaylorSwift/Classes/MainViewController.h
+c000000004B23FB84000000000000012A
+t1260649348
+s298
+i"FlipsideViewController.h"
+
+N/Users/sue/iDev/TaylorSwift/Classes/MainViewController.m
+c000000004B23FB8400000000000007E6
+t1260649348
+s2022
+i"MainViewController.h"
+i"MainView.h"
+
+N/Users/sue/iDev/TaylorSwift/Classes/TaylorSwiftAppDelegate.h
+c000000004B23FB8400000000000001C5
+t1260649348
+s453
+
+N/Users/sue/iDev/TaylorSwift/Classes/TaylorSwiftAppDelegate.m
+c000000004B23FB840000000000000334
+t1260649348
+s820
+i"TaylorSwiftAppDelegate.h"
+i"MainViewController.h"
+
+N/Users/sue/iDev/TaylorSwift/FlipsideView.xib
+c000000004B23FF300000000000005505
+t1260650288
+s21765
+
+N/Users/sue/iDev/TaylorSwift/MainView.xib
+c000000004B23FB8400000000000023C6
+t1260649348
+s9158
+
+N/Users/sue/iDev/TaylorSwift/MainWindow.xib
+c000000004B23FB840000000000001E20
+t1260649348
+s7712
+
+N/Users/sue/iDev/TaylorSwift/TaylorSwift_Prefix.pch
+c000000004B23FB840000000000000148
+t1260649348
+s328
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/sue/iDev/TaylorSwift/TimMcGraw.html
+c000000004B23FE7C000000000000098D
+t1260650108
+s2445
+
+N/Users/sue/iDev/TaylorSwift/build/Debug-iphonesimulator/TaylorSwift.app
+t2
+s0
+
+N/Users/sue/iDev/TaylorSwift/build/Debug-iphonesimulator/TaylorSwift.app.dSYM
+t2
+s0
+
+N/Users/sue/iDev/TaylorSwift/build/Debug-iphonesimulator/TaylorSwift.app/FlipsideView.nib
+t1260650796
+s2085
+
+N/Users/sue/iDev/TaylorSwift/build/Debug-iphonesimulator/TaylorSwift.app/Info.plist
+t1260650796
+s580
+
+N/Users/sue/iDev/TaylorSwift/build/Debug-iphonesimulator/TaylorSwift.app/MainView.nib
+t1260650796
+s2042
+
+N/Users/sue/iDev/TaylorSwift/build/Debug-iphonesimulator/TaylorSwift.app/MainWindow.nib
+t1260650797
+s1383
+
+N/Users/sue/iDev/TaylorSwift/build/Debug-iphonesimulator/TaylorSwift.app/PkgInfo
+t1260650796
+s8
+
+N/Users/sue/iDev/TaylorSwift/build/Debug-iphonesimulator/TaylorSwift.app/TaylorSwift
+t2
+s0
+
+N/Users/sue/iDev/TaylorSwift/build/Debug-iphonesimulator/TaylorSwift.app/TimMcGraw.html
+t1260650796
+s2445
+
+N/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/Objects-normal/i386/FlipsideView.o
+t1260650798
+s9860
+
+N/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/Objects-normal/i386/FlipsideViewController.o
+t2
+s0
+
+N/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/Objects-normal/i386/MainView.o
+t1260650798
+s9808
+
+N/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/Objects-normal/i386/MainViewController.o
+t1260650798
+s32720
+
+N/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/Objects-normal/i386/TaylorSwift.LinkFileList
+c000000004B24012C0000000000000308
+t1260650796
+s776
+
+N/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/Objects-normal/i386/TaylorSwiftAppDelegate.o
+t1260650798
+s39308
+
+N/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/Objects-normal/i386/main.o
+t1260650798
+s5936
+
+N/Users/sue/iDev/TaylorSwift/main.m
+c000000004B23FB84000000000000016A
+t1260649348
+s362
+i<UIKit/UIKit.h>
+
+N/var/folders/lk/lk6jBUK1EtmBa5R34Rl9U++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaylorSwift_Prefix-bbbiebgppccyoeaxwvxuovudowzy/TaylorSwift_Prefix.pch.gch
+t1260650798
+s13034960
+
+NTaylorSwift-Info.plist
+c000000004B23FB84000000000000038D
+t1260649348
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies282343596#282343596#0(0"0(0#1#0"31244212048494624#0"0#
+
+CCompileC build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/Objects-normal/i386/FlipsideView.o /Users/sue/iDev/TaylorSwift/Classes/FlipsideView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s282343598.440654
+e282343598.519878
+r1
+xCompileC
+xbuild/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/Objects-normal/i386/FlipsideView.o
+x/Users/sue/iDev/TaylorSwift/Classes/FlipsideView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/sue/iDev/TaylorSwift/Classes/FlipsideView.m282343598#282343598#0(0"0(0#0#50"/Users/sue/iDev/TaylorSwift/Classes/FlipsideView.m4300885448#1904"    cd /Users/sue/iDev/TaylorSwift    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/TaylorSwift-generated-files.hmap -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/TaylorSwift-own-target-headers.hmap -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/TaylorSwift-all-target-headers.hmap -iquote /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/TaylorSwift-project-headers.hmap -F/Users/sue/iDev/TaylorSwift/build/Debug-iphonesimulator -I/Users/sue/iDev/TaylorSwift/build/Debug-iphonesimulator/include -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/DerivedSources/i386 -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/DerivedSources -include /var/folders/lk/lk6jBUK1EtmBa5R34Rl9U++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaylorSwift_Prefix-bbbiebgppccyoeaxwvxuovudowzy/TaylorSwift_Prefix.pch -c /Users/sue/iDev/TaylorSwift/Classes/FlipsideView.m -o /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/Objects-normal/i386/FlipsideView.o0#
+
+CCompileC build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/Objects-normal/i386/FlipsideViewController.o /Users/sue/iDev/TaylorSwift/Classes/FlipsideViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s282343598.524213
+e282343598.582525
+r0
+xCompileC
+xbuild/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/Objects-normal/i386/FlipsideViewController.o
+x/Users/sue/iDev/TaylorSwift/Classes/FlipsideViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/sue/iDev/TaylorSwift/Classes/FlipsideViewController.m: In function '-[FlipsideViewController viewDidLoad]':
+o/Users/sue/iDev/TaylorSwift/Classes/FlipsideViewController.m:20: warning: 'FlipsideViewController' may not respond to '-loadURL'
+o/Users/sue/iDev/TaylorSwift/Classes/FlipsideViewController.m:20: warning: (Messages without a matching method signature
+o/Users/sue/iDev/TaylorSwift/Classes/FlipsideViewController.m:20: warning: will be assumed to return 'id' and accept
+o/Users/sue/iDev/TaylorSwift/Classes/FlipsideViewController.m:20: warning: '...' as arguments.)
+o/Users/sue/iDev/TaylorSwift/Classes/FlipsideViewController.m: In function '-[FlipsideViewController loadURL]':
+o/Users/sue/iDev/TaylorSwift/Classes/FlipsideViewController.m:64: error: 'aboutPath' undeclared (first use in this function)
+o/Users/sue/iDev/TaylorSwift/Classes/FlipsideViewController.m:64: error: (Each undeclared identifier is reported only once
+o/Users/sue/iDev/TaylorSwift/Classes/FlipsideViewController.m:64: error: for each function it appears in.)
+o/Users/sue/iDev/TaylorSwift/Classes/FlipsideViewController.m:61: warning: unused variable 'thePath'
+o{standard input}:204:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_8" minus "L00000000004$pb"
+o{standard input}:204:symbol: "L_OBJC_SELECTOR_REFERENCES_8" can't be undefined in a subtraction expression
+o{standard input}:200:non-relocatable subtraction expression, "L_OBJC_CLASS_FlipsideViewController" minus "L00000000004$pb"
+o{standard input}:200:symbol: "L_OBJC_CLASS_FlipsideViewController" can't be undefined in a subtraction expression
+o{standard input}:158:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L00000000003$pb"
+o{standard input}:158:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression
+o{standard input}:154:non-relocatable subtraction expression, "L_OBJC_CLASS_FlipsideViewController" minus "L00000000003$pb"
+o{standard input}:154:symbol: "L_OBJC_CLASS_FlipsideViewController" can't be undefined in a subtraction expression
+o{standard input}:123:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000002$pb"
+o{standard input}:123:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression
+o{standard input}:117:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000002$pb"
+o{standard input}:117:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression
+o{standard input}:88:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000001$pb"
+o{standard input}:88:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:80:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000001$pb"
+o{standard input}:80:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression
+o{standard input}:74:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000001$pb"
+o{standard input}:74:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression
+o{standard input}:67:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"
+o{standard input}:67:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:64:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_0" minus "L00000000001$pb"
+o{standard input}:64:symbol: "L_OBJC_CLASS_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:58:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"
+o{standard input}:58:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:54:non-relocatable subtraction expression, "L_OBJC_CLASS_FlipsideViewController" minus "L00000000001$pb"
+o{standard input}:54:symbol: "L_OBJC_CLASS_FlipsideViewController" can't be undefined in a subtraction expression
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_FlipsideViewController
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_0
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_4
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_6
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_5
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_7
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_8
+lSLF07#2@68"Compile /Users/sue/iDev/TaylorSwift/Classes/FlipsideViewController.m282343598#282343598#0(4910"/Users/sue/iDev/TaylorSwift/Classes/FlipsideViewController.m: In function '-[FlipsideViewController viewDidLoad]':/Users/sue/iDev/TaylorSwift/Classes/FlipsideViewController.m:20: warning: 'FlipsideViewController' may not respond to '-loadURL'/Users/sue/iDev/TaylorSwift/Classes/FlipsideViewController.m:20: warning: (Messages without a matching method signature/Users/sue/iDev/TaylorSwift/Classes/FlipsideViewController.m:20: warning: will be assumed to return 'id' and accept/Users/sue/iDev/TaylorSwift/Classes/FlipsideViewController.m:20: warning: '...' as arguments.)/Users/sue/iDev/TaylorSwift/Classes/FlipsideViewController.m: In function '-[FlipsideViewController loadURL]':/Users/sue/iDev/TaylorSwift/Classes/FlipsideViewController.m:64: error: 'aboutPath' undeclared (first use in this function)/Users/sue/iDev/TaylorSwift/Classes/FlipsideViewController.m:64: error: (Each undeclared identifier is reported only once/Users/sue/iDev/TaylorSwift/Classes/FlipsideViewController.m:64: error: for each function it appears in.)/Users/sue/iDev/TaylorSwift/Classes/FlipsideViewController.m:61: warning: unused variable 'thePath'{standard input}:204:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_8" minus "L00000000004$pb"{standard input}:204:symbol: "L_OBJC_SELECTOR_REFERENCES_8" can't be undefined in a subtraction expression{standard input}:200:non-relocatable subtraction expression, "L_OBJC_CLASS_FlipsideViewController" minus "L00000000004$pb"{standard input}:200:symbol: "L_OBJC_CLASS_FlipsideViewController" can't be undefined in a subtraction expression{standard input}:158:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L00000000003$pb"{standard input}:158:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression{standard input}:154:non-relocatable subtraction expression, "L_OBJC_CLASS_FlipsideViewController" minus "L00000000003$pb"{standard input}:154:symbol: "L_OBJC_CLASS_FlipsideViewController" can't be undefined in a subtraction expression{standard input}:123:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000002$pb"{standard input}:123:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression{standard input}:117:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000002$pb"{standard input}:117:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression{standard input}:88:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000001$pb"{standard input}:88:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:80:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000001$pb"{standard input}:80:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:74:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000001$pb"{standard input}:74:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression{standard input}:67:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"{standard input}:67:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:64:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_0" minus "L00000000001$pb"{standard input}:64:symbol: "L_OBJC_CLASS_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:58:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"{standard input}:58:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:54:non-relocatable subtraction expression, "L_OBJC_CLASS_FlipsideViewController" minus "L00000000001$pb"{standard input}:54:symbol: "L_OBJC_CLASS_FlipsideViewController" can't be undefined in a subtraction expression{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_FlipsideViewController{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_0{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_4{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_6{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_5{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_7{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_84(22@54"'FlipsideViewController' may not respond to '-loadURL'282343598#115#129#0(6@60"/Users/sue/iDev/TaylorSwift/Classes/FlipsideViewController.m282343594#20#0#20#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)282343598#244#120#0(6@60"/Users/sue/iDev/TaylorSwift/Classes/FlipsideViewController.m282343594#20#0#20#0#0"0(4@51"'aboutPath' undeclared (first use in this function)282343598#686#124#0(6@60"/Users/sue/iDev/TaylorSwift/Classes/FlipsideViewController.m282343594#64#0#64#0#43"'*' undeclared (first use in this function)0(22@25"Unused variable 'thePath'282343598#1038#100#0(6@60"/Users/sue/iDev/TaylorSwift/Classes/FlipsideViewController.m282343594#61#0#61#0#19"unused variable '*'0(0#0#60"/Users/sue/iDev/TaylorSwift/Classes/FlipsideViewController.m4300885448#1924"    cd /Users/sue/iDev/TaylorSwift    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/TaylorSwift-generated-files.hmap -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/TaylorSwift-own-target-headers.hmap -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/TaylorSwift-all-target-headers.hmap -iquote /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/TaylorSwift-project-headers.hmap -F/Users/sue/iDev/TaylorSwift/build/Debug-iphonesimulator -I/Users/sue/iDev/TaylorSwift/build/Debug-iphonesimulator/include -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/DerivedSources/i386 -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/DerivedSources -include /var/folders/lk/lk6jBUK1EtmBa5R34Rl9U++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaylorSwift_Prefix-bbbiebgppccyoeaxwvxuovudowzy/TaylorSwift_Prefix.pch -c /Users/sue/iDev/TaylorSwift/Classes/FlipsideViewController.m -o /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/Objects-normal/i386/FlipsideViewController.o1#
+
+CCompileC build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/Objects-normal/i386/MainView.o /Users/sue/iDev/TaylorSwift/Classes/MainView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s282343598.459427
+e282343598.524109
+r1
+xCompileC
+xbuild/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/Objects-normal/i386/MainView.o
+x/Users/sue/iDev/TaylorSwift/Classes/MainView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/sue/iDev/TaylorSwift/Classes/MainView.m282343598#282343598#0(0"0(0#0#46"/Users/sue/iDev/TaylorSwift/Classes/MainView.m4300885448#1896"    cd /Users/sue/iDev/TaylorSwift    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/TaylorSwift-generated-files.hmap -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/TaylorSwift-own-target-headers.hmap -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/TaylorSwift-all-target-headers.hmap -iquote /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/TaylorSwift-project-headers.hmap -F/Users/sue/iDev/TaylorSwift/build/Debug-iphonesimulator -I/Users/sue/iDev/TaylorSwift/build/Debug-iphonesimulator/include -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/DerivedSources/i386 -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/DerivedSources -include /var/folders/lk/lk6jBUK1EtmBa5R34Rl9U++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaylorSwift_Prefix-bbbiebgppccyoeaxwvxuovudowzy/TaylorSwift_Prefix.pch -c /Users/sue/iDev/TaylorSwift/Classes/MainView.m -o /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/Objects-normal/i386/MainView.o0#
+
+CCompileC build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/Objects-normal/i386/MainViewController.o /Users/sue/iDev/TaylorSwift/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s282343598.519997
+e282343598.593590
+r1
+xCompileC
+xbuild/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/Objects-normal/i386/MainViewController.o
+x/Users/sue/iDev/TaylorSwift/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/sue/iDev/TaylorSwift/Classes/MainViewController.m282343598#282343598#0(0"0(0#0#56"/Users/sue/iDev/TaylorSwift/Classes/MainViewController.m4300885448#1916"    cd /Users/sue/iDev/TaylorSwift    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/TaylorSwift-generated-files.hmap -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/TaylorSwift-own-target-headers.hmap -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/TaylorSwift-all-target-headers.hmap -iquote /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/TaylorSwift-project-headers.hmap -F/Users/sue/iDev/TaylorSwift/build/Debug-iphonesimulator -I/Users/sue/iDev/TaylorSwift/build/Debug-iphonesimulator/include -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/DerivedSources/i386 -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/DerivedSources -include /var/folders/lk/lk6jBUK1EtmBa5R34Rl9U++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaylorSwift_Prefix-bbbiebgppccyoeaxwvxuovudowzy/TaylorSwift_Prefix.pch -c /Users/sue/iDev/TaylorSwift/Classes/MainViewController.m -o /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/Objects-normal/i386/MainViewController.o0#
+
+CCompileC build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/Objects-normal/i386/TaylorSwiftAppDelegate.o /Users/sue/iDev/TaylorSwift/Classes/TaylorSwiftAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s282343598.360536
+e282343598.459317
+r1
+xCompileC
+xbuild/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/Objects-normal/i386/TaylorSwiftAppDelegate.o
+x/Users/sue/iDev/TaylorSwift/Classes/TaylorSwiftAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/sue/iDev/TaylorSwift/Classes/TaylorSwiftAppDelegate.m282343598#282343598#0(0"0(0#0#60"/Users/sue/iDev/TaylorSwift/Classes/TaylorSwiftAppDelegate.m4300885448#1924"    cd /Users/sue/iDev/TaylorSwift    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/TaylorSwift-generated-files.hmap -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/TaylorSwift-own-target-headers.hmap -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/TaylorSwift-all-target-headers.hmap -iquote /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/TaylorSwift-project-headers.hmap -F/Users/sue/iDev/TaylorSwift/build/Debug-iphonesimulator -I/Users/sue/iDev/TaylorSwift/build/Debug-iphonesimulator/include -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/DerivedSources/i386 -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/DerivedSources -include /var/folders/lk/lk6jBUK1EtmBa5R34Rl9U++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaylorSwift_Prefix-bbbiebgppccyoeaxwvxuovudowzy/TaylorSwift_Prefix.pch -c /Users/sue/iDev/TaylorSwift/Classes/TaylorSwiftAppDelegate.m -o /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/Objects-normal/i386/TaylorSwiftAppDelegate.o0#
+
+CCompileC build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/Objects-normal/i386/main.o /Users/sue/iDev/TaylorSwift/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s282343598.359212
+e282343598.440541
+r1
+xCompileC
+xbuild/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/Objects-normal/i386/main.o
+x/Users/sue/iDev/TaylorSwift/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@42"Compile /Users/sue/iDev/TaylorSwift/main.m282343598#282343598#0(0"0(0#0#34"/Users/sue/iDev/TaylorSwift/main.m4300885448#1880"    cd /Users/sue/iDev/TaylorSwift    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/TaylorSwift-generated-files.hmap -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/TaylorSwift-own-target-headers.hmap -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/TaylorSwift-all-target-headers.hmap -iquote /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/TaylorSwift-project-headers.hmap -F/Users/sue/iDev/TaylorSwift/build/Debug-iphonesimulator -I/Users/sue/iDev/TaylorSwift/build/Debug-iphonesimulator/include -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/DerivedSources/i386 -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/DerivedSources -include /var/folders/lk/lk6jBUK1EtmBa5R34Rl9U++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaylorSwift_Prefix-bbbiebgppccyoeaxwvxuovudowzy/TaylorSwift_Prefix.pch -c /Users/sue/iDev/TaylorSwift/main.m -o /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/sue/iDev/TaylorSwift/FlipsideView.xib
+s282343596.534189
+e282343596.910285
+r1
+xCompileXIB
+x/Users/sue/iDev/TaylorSwift/FlipsideView.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@27"CompileXIB FlipsideView.xib282343596#282343596#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#44"/Users/sue/iDev/TaylorSwift/FlipsideView.xib28710898603851860#519"    cd /Users/sue/iDev/TaylorSwift    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sue/iDev/TaylorSwift/build/Debug-iphonesimulator/TaylorSwift.app/FlipsideView.nib /Users/sue/iDev/TaylorSwift/FlipsideView.xib0#
+
+CCompileXIB /Users/sue/iDev/TaylorSwift/MainView.xib
+s282343596.537944
+e282343596.878773
+r1
+xCompileXIB
+x/Users/sue/iDev/TaylorSwift/MainView.xib
+lSLF07#2@23"CompileXIB MainView.xib282343596#282343596#0(0"0(0#0#40"/Users/sue/iDev/TaylorSwift/MainView.xib4300885448#511"    cd /Users/sue/iDev/TaylorSwift    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sue/iDev/TaylorSwift/build/Debug-iphonesimulator/TaylorSwift.app/MainView.nib /Users/sue/iDev/TaylorSwift/MainView.xib0#
+
+CCompileXIB /Users/sue/iDev/TaylorSwift/MainWindow.xib
+s282343596.878871
+e282343597.147142
+r1
+xCompileXIB
+x/Users/sue/iDev/TaylorSwift/MainWindow.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@25"CompileXIB MainWindow.xib282343596#282343597#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#42"/Users/sue/iDev/TaylorSwift/MainWindow.xib4300885448#515"    cd /Users/sue/iDev/TaylorSwift    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sue/iDev/TaylorSwift/build/Debug-iphonesimulator/TaylorSwift.app/MainWindow.nib /Users/sue/iDev/TaylorSwift/MainWindow.xib0#
+
+CCpResource build/Debug-iphonesimulator/TaylorSwift.app/TimMcGraw.html TimMcGraw.html
+s282343596.910383
+e282343596.918284
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TaylorSwift.app/TimMcGraw.html
+xTimMcGraw.html
+lSLF07#2@19"Copy TimMcGraw.html282343596#282343596#0(0"0(0#0#42"/Users/sue/iDev/TaylorSwift/TimMcGraw.html4300885448#491"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/TimMcGraw.html /Users/sue/iDev/TaylorSwift/build/Debug-iphonesimulator/TaylorSwift.app0#
+
+CGenerateDSYMFile /Users/sue/iDev/TaylorSwift/build/Debug-iphonesimulator/TaylorSwift.app.dSYM /Users/sue/iDev/TaylorSwift/build/Debug-iphonesimulator/TaylorSwift.app/TaylorSwift
+r0
+
+CLd /Users/sue/iDev/TaylorSwift/build/Debug-iphonesimulator/TaylorSwift.app/TaylorSwift normal i386
+r0
+
+CProcessInfoPlistFile /Users/sue/iDev/TaylorSwift/build/Debug-iphonesimulator/TaylorSwift.app/Info.plist TaylorSwift-Info.plist
+s282343596.508852
+e282343596.533803
+r1
+xProcessInfoPlistFile
+x/Users/sue/iDev/TaylorSwift/build/Debug-iphonesimulator/TaylorSwift.app/Info.plist
+xTaylorSwift-Info.plist
+lSLF07#2@30"Process TaylorSwift-Info.plist282343596#282343596#0(0"0(0#0#50"/Users/sue/iDev/TaylorSwift/TaylorSwift-Info.plist30399800003068008#520"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility TaylorSwift-Info.plist -genpkginfo /Users/sue/iDev/TaylorSwift/build/Debug-iphonesimulator/TaylorSwift.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/sue/iDev/TaylorSwift/build/Debug-iphonesimulator/TaylorSwift.app/Info.plist0#
+
+CProcessPCH /var/folders/lk/lk6jBUK1EtmBa5R34Rl9U++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaylorSwift_Prefix-bbbiebgppccyoeaxwvxuovudowzy/TaylorSwift_Prefix.pch.gch TaylorSwift_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s282343597.147319
+e282343598.359006
+r1
+xProcessPCH
+x/var/folders/lk/lk6jBUK1EtmBa5R34Rl9U++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaylorSwift_Prefix-bbbiebgppccyoeaxwvxuovudowzy/TaylorSwift_Prefix.pch.gch
+xTaylorSwift_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile TaylorSwift_Prefix.pch282343597#282343598#0(0"0(0#0#50"/Users/sue/iDev/TaylorSwift/TaylorSwift_Prefix.pch4300885448#1779"    cd /Users/sue/iDev/TaylorSwift    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/TaylorSwift-generated-files.hmap -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/TaylorSwift-own-target-headers.hmap -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/TaylorSwift-all-target-headers.hmap -iquote /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/TaylorSwift-project-headers.hmap -F/Users/sue/iDev/TaylorSwift/build/Debug-iphonesimulator -I/Users/sue/iDev/TaylorSwift/build/Debug-iphonesimulator/include -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/DerivedSources/i386 -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphonesimulator/TaylorSwift.build/DerivedSources -c /Users/sue/iDev/TaylorSwift/TaylorSwift_Prefix.pch -o /var/folders/lk/lk6jBUK1EtmBa5R34Rl9U++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaylorSwift_Prefix-bbbiebgppccyoeaxwvxuovudowzy/TaylorSwift_Prefix.pch.gch0#
+
+CTouch /Users/sue/iDev/TaylorSwift/build/Debug-iphonesimulator/TaylorSwift.app
+r0
+
