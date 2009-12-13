@@ -22,6 +22,17 @@
 		self.songList = [NSArray arrayWithObjects:
 						 @"Tim McGraw", 
 						 @"Picture To Burn",
+						 @"Teardrops On My Guitar",
+						 @"Cold As You",
+						 @"The Outside",
+						 @"Tied Together With A Smile",
+						 @"Stay Beautiful",
+						 @"Should've Said No",
+						 @"Mary's Song",
+						 @"Our Song",
+						 @"I'm Only Me When I'm With You",
+						 @"Invisible",
+						 @"A Perfectly Good Heart",
 						 nil];
 						 
 		
@@ -60,14 +71,14 @@
 	FlipsideViewController *controller = [[FlipsideViewController alloc] initWithNibName:@"FlipsideView" bundle:nil];
 	controller.delegate = self;
 	
-	controller.navigationItem.title = @"some song";
-	
 	controller.songTitle = self.curTitle;
 	
 	controller.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
 	[self presentModalViewController:controller animated:YES];
 	
 	[controller release];
+	
+	
 }
 
 #pragma mark -
@@ -93,6 +104,7 @@
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier] autorelease];
     }
 	
+	cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
 	cell.textLabel.text = [songList objectAtIndex: indexPath.row];
 	
 	return cell;

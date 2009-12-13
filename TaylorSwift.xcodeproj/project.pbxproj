@@ -19,11 +19,21 @@
 		289233A70DB2D0840083E9F9 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233A50DB2D0840083E9F9 /* MainView.m */; };
 		289233AE0DB2D0DB0083E9F9 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233A90DB2D0DB0083E9F9 /* MainViewController.m */; };
 		289233B00DB2D0DB0083E9F9 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */; };
-		801BC3D210D4686400DE7DD8 /* PictureToBurn.php in Resources */ = {isa = PBXBuildFile; fileRef = 801BC3D110D4686400DE7DD8 /* PictureToBurn.php */; };
+		801BC3D210D4686400DE7DD8 /* PictureToBurn.html in Resources */ = {isa = PBXBuildFile; fileRef = 801BC3D110D4686400DE7DD8 /* PictureToBurn.html */; };
 		801BC50510D57B0900DE7DD8 /* songStyles.css in Resources */ = {isa = PBXBuildFile; fileRef = 801BC50410D57B0900DE7DD8 /* songStyles.css */; };
-		801BC51C10D57C3800DE7DD8 /* head.php in Resources */ = {isa = PBXBuildFile; fileRef = 801BC51B10D57C3800DE7DD8 /* head.php */; };
-		801BC52810D57CB100DE7DD8 /* tail.php in Resources */ = {isa = PBXBuildFile; fileRef = 801BC52710D57CB100DE7DD8 /* tail.php */; };
-		805CDA1A10D4344600D0F1D7 /* TimMcGraw.php in Resources */ = {isa = PBXBuildFile; fileRef = 805CDA1910D4344600D0F1D7 /* TimMcGraw.php */; };
+		805CDA1A10D4344600D0F1D7 /* TimMcGraw.html in Resources */ = {isa = PBXBuildFile; fileRef = 805CDA1910D4344600D0F1D7 /* TimMcGraw.html */; };
+		806F770810D5965E008FAF4F /* TeardropsOnMyGuitar.html in Resources */ = {isa = PBXBuildFile; fileRef = 806F770710D5965E008FAF4F /* TeardropsOnMyGuitar.html */; };
+		806F773C10D5994D008FAF4F /* APlaceInThisWorld.html in Resources */ = {isa = PBXBuildFile; fileRef = 806F773B10D5994D008FAF4F /* APlaceInThisWorld.html */; };
+		806F773E10D59972008FAF4F /* ColdAsYou.html in Resources */ = {isa = PBXBuildFile; fileRef = 806F773D10D59972008FAF4F /* ColdAsYou.html */; };
+		806F774810D59A53008FAF4F /* APerfectlyGoodHeart.html in Resources */ = {isa = PBXBuildFile; fileRef = 806F773F10D59A53008FAF4F /* APerfectlyGoodHeart.html */; };
+		806F774910D59A53008FAF4F /* ImOnlyMeWhenImWithYou.html in Resources */ = {isa = PBXBuildFile; fileRef = 806F774010D59A53008FAF4F /* ImOnlyMeWhenImWithYou.html */; };
+		806F774A10D59A53008FAF4F /* Invisible.html in Resources */ = {isa = PBXBuildFile; fileRef = 806F774110D59A53008FAF4F /* Invisible.html */; };
+		806F774B10D59A53008FAF4F /* MarysSong.html in Resources */ = {isa = PBXBuildFile; fileRef = 806F774210D59A53008FAF4F /* MarysSong.html */; };
+		806F774C10D59A53008FAF4F /* OurSong.html in Resources */ = {isa = PBXBuildFile; fileRef = 806F774310D59A53008FAF4F /* OurSong.html */; };
+		806F774D10D59A53008FAF4F /* ShouldveSaidNo.html in Resources */ = {isa = PBXBuildFile; fileRef = 806F774410D59A53008FAF4F /* ShouldveSaidNo.html */; };
+		806F774E10D59A53008FAF4F /* StayBeautiful.html in Resources */ = {isa = PBXBuildFile; fileRef = 806F774510D59A53008FAF4F /* StayBeautiful.html */; };
+		806F774F10D59A53008FAF4F /* TheOutside.html in Resources */ = {isa = PBXBuildFile; fileRef = 806F774610D59A53008FAF4F /* TheOutside.html */; };
+		806F775010D59A53008FAF4F /* TiedTogetherWithASmile.html in Resources */ = {isa = PBXBuildFile; fileRef = 806F774710D59A53008FAF4F /* TiedTogetherWithASmile.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,11 +56,21 @@
 		289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FlipsideViewController.m; path = Classes/FlipsideViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* TaylorSwift_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaylorSwift_Prefix.pch; sourceTree = "<group>"; };
-		801BC3D110D4686400DE7DD8 /* PictureToBurn.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = PictureToBurn.php; sourceTree = "<group>"; };
+		801BC3D110D4686400DE7DD8 /* PictureToBurn.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = PictureToBurn.html; sourceTree = "<group>"; };
 		801BC50410D57B0900DE7DD8 /* songStyles.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = songStyles.css; sourceTree = "<group>"; };
-		801BC51B10D57C3800DE7DD8 /* head.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = head.php; sourceTree = "<group>"; };
-		801BC52710D57CB100DE7DD8 /* tail.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = tail.php; sourceTree = "<group>"; };
-		805CDA1910D4344600D0F1D7 /* TimMcGraw.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = TimMcGraw.php; sourceTree = "<group>"; };
+		805CDA1910D4344600D0F1D7 /* TimMcGraw.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = TimMcGraw.html; sourceTree = "<group>"; };
+		806F770710D5965E008FAF4F /* TeardropsOnMyGuitar.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = TeardropsOnMyGuitar.html; sourceTree = "<group>"; };
+		806F773B10D5994D008FAF4F /* APlaceInThisWorld.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = APlaceInThisWorld.html; sourceTree = "<group>"; };
+		806F773D10D59972008FAF4F /* ColdAsYou.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ColdAsYou.html; sourceTree = "<group>"; };
+		806F773F10D59A53008FAF4F /* APerfectlyGoodHeart.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = APerfectlyGoodHeart.html; sourceTree = "<group>"; };
+		806F774010D59A53008FAF4F /* ImOnlyMeWhenImWithYou.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ImOnlyMeWhenImWithYou.html; sourceTree = "<group>"; };
+		806F774110D59A53008FAF4F /* Invisible.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Invisible.html; sourceTree = "<group>"; };
+		806F774210D59A53008FAF4F /* MarysSong.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = MarysSong.html; sourceTree = "<group>"; };
+		806F774310D59A53008FAF4F /* OurSong.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = OurSong.html; sourceTree = "<group>"; };
+		806F774410D59A53008FAF4F /* ShouldveSaidNo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ShouldveSaidNo.html; sourceTree = "<group>"; };
+		806F774510D59A53008FAF4F /* StayBeautiful.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = StayBeautiful.html; sourceTree = "<group>"; };
+		806F774610D59A53008FAF4F /* TheOutside.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = TheOutside.html; sourceTree = "<group>"; };
+		806F774710D59A53008FAF4F /* TiedTogetherWithASmile.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = TiedTogetherWithASmile.html; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* TaylorSwift-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TaylorSwift-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,11 +176,21 @@
 		805CDA1810D4342F00D0F1D7 /* HTML */ = {
 			isa = PBXGroup;
 			children = (
-				805CDA1910D4344600D0F1D7 /* TimMcGraw.php */,
-				801BC3D110D4686400DE7DD8 /* PictureToBurn.php */,
+				806F773F10D59A53008FAF4F /* APerfectlyGoodHeart.html */,
+				806F774010D59A53008FAF4F /* ImOnlyMeWhenImWithYou.html */,
+				806F774110D59A53008FAF4F /* Invisible.html */,
+				806F774210D59A53008FAF4F /* MarysSong.html */,
+				806F774310D59A53008FAF4F /* OurSong.html */,
+				806F774410D59A53008FAF4F /* ShouldveSaidNo.html */,
+				806F774510D59A53008FAF4F /* StayBeautiful.html */,
+				806F774610D59A53008FAF4F /* TheOutside.html */,
+				806F774710D59A53008FAF4F /* TiedTogetherWithASmile.html */,
+				805CDA1910D4344600D0F1D7 /* TimMcGraw.html */,
+				801BC3D110D4686400DE7DD8 /* PictureToBurn.html */,
 				801BC50410D57B0900DE7DD8 /* songStyles.css */,
-				801BC51B10D57C3800DE7DD8 /* head.php */,
-				801BC52710D57CB100DE7DD8 /* tail.php */,
+				806F770710D5965E008FAF4F /* TeardropsOnMyGuitar.html */,
+				806F773B10D5994D008FAF4F /* APlaceInThisWorld.html */,
+				806F773D10D59972008FAF4F /* ColdAsYou.html */,
 			);
 			name = HTML;
 			sourceTree = "<group>";
@@ -217,11 +247,21 @@
 				280E754D0DD40C5E005A515E /* FlipsideView.xib in Resources */,
 				280E754E0DD40C5E005A515E /* MainView.xib in Resources */,
 				280E754F0DD40C5E005A515E /* MainWindow.xib in Resources */,
-				805CDA1A10D4344600D0F1D7 /* TimMcGraw.php in Resources */,
-				801BC3D210D4686400DE7DD8 /* PictureToBurn.php in Resources */,
+				805CDA1A10D4344600D0F1D7 /* TimMcGraw.html in Resources */,
+				801BC3D210D4686400DE7DD8 /* PictureToBurn.html in Resources */,
 				801BC50510D57B0900DE7DD8 /* songStyles.css in Resources */,
-				801BC51C10D57C3800DE7DD8 /* head.php in Resources */,
-				801BC52810D57CB100DE7DD8 /* tail.php in Resources */,
+				806F770810D5965E008FAF4F /* TeardropsOnMyGuitar.html in Resources */,
+				806F773C10D5994D008FAF4F /* APlaceInThisWorld.html in Resources */,
+				806F773E10D59972008FAF4F /* ColdAsYou.html in Resources */,
+				806F774810D59A53008FAF4F /* APerfectlyGoodHeart.html in Resources */,
+				806F774910D59A53008FAF4F /* ImOnlyMeWhenImWithYou.html in Resources */,
+				806F774A10D59A53008FAF4F /* Invisible.html in Resources */,
+				806F774B10D59A53008FAF4F /* MarysSong.html in Resources */,
+				806F774C10D59A53008FAF4F /* OurSong.html in Resources */,
+				806F774D10D59A53008FAF4F /* ShouldveSaidNo.html in Resources */,
+				806F774E10D59A53008FAF4F /* StayBeautiful.html in Resources */,
+				806F774F10D59A53008FAF4F /* TheOutside.html in Resources */,
+				806F775010D59A53008FAF4F /* TiedTogetherWithASmile.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

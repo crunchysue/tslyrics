@@ -13,13 +13,13 @@
 
 @synthesize delegate;
 @synthesize songTitle;
-
+@synthesize navItem;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor viewFlipsideBackgroundColor];   
 	[self loadURL];
-	self.navigationItem.title = self.songTitle;
+	self.navItem.title = self.songTitle;
 
 }
 
@@ -60,14 +60,13 @@
 	
 	NSURL *url = NULL;
 	
-	// html files are the same as the song titles, without spaces
-	// [NSCharacterSet whitespaceAndNewlineCharacterSet]
-	NSString *filename = [self.songTitle stringByReplacingOccurrencesOfString:@" "
-						  withString:@""];
+	// html files are the same as the song titles, without spaces and without apostrophes
+	NSString *filename = [self.songTitle stringByReplacingOccurrencesOfString:@" " withString:@""];
+	filename = [filename stringByReplacingOccurrencesOfString:@"'" withString:@""];
 	
 	NSLog(@"filename = %@", filename);
 	
-	// find the about page in bundle
+	// find the page in bundle
 	NSString *thePath =
 	[[NSBundle mainBundle] pathForResource:filename 
 									ofType:@"html"];

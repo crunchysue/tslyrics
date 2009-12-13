@@ -12,11 +12,13 @@
 @interface FlipsideViewController : UIViewController {
 	id <FlipsideViewControllerDelegate> delegate;
 	IBOutlet UIWebView *webView;
+	IBOutlet UINavigationItem *navItem;
 	NSString *songTitle;
 }
 
 @property (nonatomic, assign) id <FlipsideViewControllerDelegate> delegate;
 @property (nonatomic, retain) NSString *songTitle;
+@property (nonatomic, retain) UINavigationItem *navItem;
 
 - (IBAction)done;
 - (void) loadURL;
