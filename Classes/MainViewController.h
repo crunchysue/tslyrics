@@ -12,12 +12,14 @@
 	
 	IBOutlet UITableView *songsTable;
 	NSString *curTitle;
-	NSArray *songList;
+	NSArray *songListFearless;
+	NSArray *songListTaylorSwift;
 	
 }
 
 @property (nonatomic, retain) NSString *curTitle;
-@property (nonatomic, retain) NSArray *songList;
+@property (nonatomic, retain) NSArray *songListFearless;
+@property (nonatomic, retain) NSArray *songListTaylorSwift;
 
 - (IBAction)showInfo;
 

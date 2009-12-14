@@ -13,15 +13,19 @@
 	id <FlipsideViewControllerDelegate> delegate;
 	IBOutlet UIWebView *webView;
 	IBOutlet UINavigationItem *navItem;
+	IBOutlet UILabel *songTitleLabel;
 	NSString *songTitle;
 }
 
 @property (nonatomic, assign) id <FlipsideViewControllerDelegate> delegate;
 @property (nonatomic, retain) NSString *songTitle;
 @property (nonatomic, retain) UINavigationItem *navItem;
+@property (nonatomic, retain) UILabel *songTitleLabel;
 
 - (IBAction)done;
 - (void) loadURL;
+- (IBAction) playSong;
+- (IBAction) stopSong;
 
 @end
 

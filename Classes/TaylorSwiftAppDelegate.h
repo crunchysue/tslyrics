@@ -6,6 +6,8 @@
 //  Copyright House of Crunchy 2009. All rights reserved.
 //
 
+#import <MediaPlayer/MediaPlayer.h>
+
 @class MainViewController;
 
 @interface TaylorSwiftAppDelegate : NSObject <UIApplicationDelegate> {

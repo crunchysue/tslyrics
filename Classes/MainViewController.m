@@ -12,14 +12,15 @@
 @implementation MainViewController
 
 @synthesize curTitle;
-@synthesize songList;
+@synthesize songListFearless;
+@synthesize songListTaylorSwift;
 
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
         // Custom initialization
 		
-		self.songList = [NSArray arrayWithObjects:
+		self.songListTaylorSwift = [NSArray arrayWithObjects:
 						 @"Tim McGraw", 
 						 @"Picture To Burn",
 						 @"Teardrops On My Guitar",
@@ -34,9 +35,29 @@
 						 @"Invisible",
 						 @"A Perfectly Good Heart",
 						 nil];
-						 
 		
-
+		self.songListFearless = [NSArray arrayWithObjects:
+						@"Jump Then Fall",
+						@"Untouchable",
+						@"Forever & Always (Piano Version)",
+						@"Come In With The Rain",
+						@"Superstar",
+						@"The Other Side Of The Door",
+						@"Fearless",
+						@"Fifteen",
+						@"Love Story",
+						@"Hey Stephen",
+						@"White Horse",
+						@"You Belong With Me",
+						@"Breathe",
+						@"Tell Me Why",
+						@"You're Not Sorry",
+						@"The Way I Loved You",
+						@"Forever & Always",
+						@"The Best Day",
+						@"Change",
+						nil];
+															
     }
     return self;
 }
@@ -73,6 +94,8 @@
 	
 	controller.songTitle = self.curTitle;
 	
+	NSLog(@"curTitle = %@", self.curTitle);
+	
 	controller.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
 	[self presentModalViewController:controller animated:YES];
 	
@@ -86,11 +109,16 @@
 
 
 
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    return 2;
+}
+
+
 // a required callback
 - (NSInteger)tableView:(UITableView *)tableView 
  numberOfRowsInSection:(NSInteger)section {
 	
-	return [songList count];
+	return section == 0 ? [songListFearless count] : [songListTaylorSwift count];
 	
 }
 
@@ -101,20 +129,34 @@
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier] autorelease];
+        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
     }
 	
 	cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-	cell.textLabel.text = [songList objectAtIndex: indexPath.row];
+	
+	cell.textLabel.text = indexPath.section == 0 ? 
+		[songListFearless objectAtIndex: indexPath.row] : 
+		[songListTaylorSwift objectAtIndex:indexPath.row];
+
 	
 	return cell;
 }
 
 // a required callback
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {	
+		
+	self.curTitle = indexPath.section == 0 ? 
+		[songListFearless objectAtIndex: indexPath.row] : 
+		[songListTaylorSwift objectAtIndex:indexPath.row];
 	
-	self.curTitle = [songList objectAtIndex: indexPath.row];
+	
 	[self showInfo];
+}
+
+
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
+	// we could have used nil instead of the empty string
+	return section == 0 ? @"Album: Fearless [Platinum Edition]" : @"Album: Taylor Swift [Premium Edition]";
 }
 
 
@@ -143,7 +185,8 @@
 
 - (void)dealloc {
     [super dealloc];
-	[songList release];
+	[songListFearless release];
+	[songListTaylorSwift release];
 }
 
 

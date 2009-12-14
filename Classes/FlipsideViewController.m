@@ -7,6 +7,7 @@
 //
 
 #import "FlipsideViewController.h"
+#import "TaylorSwiftAppDelegate.h"
 
 
 @implementation FlipsideViewController
@@ -14,13 +15,61 @@
 @synthesize delegate;
 @synthesize songTitle;
 @synthesize navItem;
+@synthesize songTitleLabel;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor viewFlipsideBackgroundColor];   
 	[self loadURL];
-	self.navItem.title = self.songTitle;
+//	self.navItem.title = self.songTitle;
+	self.songTitleLabel.text = self.songTitle;
+	
+	
+	[[NSNotificationCenter defaultCenter] addObserver:self 
+											 selector: @selector (playbackStateChanged:) 
+												 name:@"MPMusicPlayerControllerPlaybackStateDidChangeNotification" 
+											   object:nil]; 
+	[[NSNotificationCenter defaultCenter] addObserver:self 
+											 selector: @selector (nowPlayingItemChanged:) 
+												 name:@"MPMusicPlayerControllerNowPlayingItemDidChangeNotification" 
+											   object:nil]; 
+	[[MPMusicPlayerController iPodMusicPlayer] beginGeneratingPlaybackNotifications];
+	
 
+}
+
+
+- (void)playSong {
+	
+	NSLog(@"Playing Song: %@", self.songTitle);
+	
+	MPMediaPropertyPredicate *artistNamePredicate =
+    [MPMediaPropertyPredicate predicateWithValue: @"Taylor Swift"
+                                     forProperty: MPMediaItemPropertyArtist];
+	
+	MPMediaPropertyPredicate *songNamePredicate =
+    [MPMediaPropertyPredicate predicateWithValue: self.songTitle
+                                     forProperty: MPMediaItemPropertyTitle];
+	
+	MPMediaQuery *myComplexQuery = [[MPMediaQuery alloc] init];
+	
+	[myComplexQuery addFilterPredicate: artistNamePredicate];
+	[myComplexQuery addFilterPredicate: songNamePredicate];
+	
+	MPMusicPlayerController *appMusicPlayer = [MPMusicPlayerController applicationMusicPlayer];	
+	[appMusicPlayer setRepeatMode: MPMusicRepeatModeOne];
+
+	[appMusicPlayer setQueueWithQuery: myComplexQuery];
+
+	[appMusicPlayer play];
+	
+	[myComplexQuery release];
+	
+}
+
+- (void) stopSong {
+	MPMusicPlayerController *appMusicPlayer = [MPMusicPlayerController applicationMusicPlayer];
+	[appMusicPlayer stop];
 }
 
 
@@ -29,13 +78,13 @@
 }
 
 
-/*
+
  // Override to allow orientations other than the default portrait orientation.
  - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
  // Return YES for supported orientations
- return (interfaceOrientation == UIInterfaceOrientationPortrait);
+ return YES;
  }
- */
+ 
 
 - (void)didReceiveMemoryWarning {
 	// Releases the view if it doesn't have a superview.
@@ -63,6 +112,8 @@
 	// html files are the same as the song titles, without spaces and without apostrophes
 	NSString *filename = [self.songTitle stringByReplacingOccurrencesOfString:@" " withString:@""];
 	filename = [filename stringByReplacingOccurrencesOfString:@"'" withString:@""];
+	filename = [filename stringByReplacingOccurrencesOfString:@"(" withString:@""];
+	filename = [filename stringByReplacingOccurrencesOfString:@")" withString:@""];
 	
 	NSLog(@"filename = %@", filename);
 	
