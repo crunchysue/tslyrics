@@ -21,6 +21,9 @@
 		289233B00DB2D0DB0083E9F9 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */; };
 		801BC3D210D4686400DE7DD8 /* PictureToBurn.html in Resources */ = {isa = PBXBuildFile; fileRef = 801BC3D110D4686400DE7DD8 /* PictureToBurn.html */; };
 		801BC50510D57B0900DE7DD8 /* songStyles.css in Resources */ = {isa = PBXBuildFile; fileRef = 801BC50410D57B0900DE7DD8 /* songStyles.css */; };
+		804C251A10D713E0006D13AA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 804C251910D713E0006D13AA /* Default.png */; };
+		804C252510D7146B006D13AA /* splashView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 804C252410D7146B006D13AA /* splashView.xib */; };
+		804C252A10D715A1006D13AA /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 804C252910D715A1006D13AA /* SplashViewController.m */; };
 		805CDA1A10D4344600D0F1D7 /* TimMcGraw.html in Resources */ = {isa = PBXBuildFile; fileRef = 805CDA1910D4344600D0F1D7 /* TimMcGraw.html */; };
 		806F770810D5965E008FAF4F /* TeardropsOnMyGuitar.html in Resources */ = {isa = PBXBuildFile; fileRef = 806F770710D5965E008FAF4F /* TeardropsOnMyGuitar.html */; };
 		806F773C10D5994D008FAF4F /* APlaceInThisWorld.html in Resources */ = {isa = PBXBuildFile; fileRef = 806F773B10D5994D008FAF4F /* APlaceInThisWorld.html */; };
@@ -79,6 +82,10 @@
 		32CA4F630368D1EE00C91783 /* TaylorSwift_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaylorSwift_Prefix.pch; sourceTree = "<group>"; };
 		801BC3D110D4686400DE7DD8 /* PictureToBurn.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = PictureToBurn.html; sourceTree = "<group>"; };
 		801BC50410D57B0900DE7DD8 /* songStyles.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = songStyles.css; sourceTree = "<group>"; };
+		804C251910D713E0006D13AA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		804C252410D7146B006D13AA /* splashView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = splashView.xib; sourceTree = "<group>"; };
+		804C252810D715A1006D13AA /* SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
+		804C252910D715A1006D13AA /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
 		805CDA1910D4344600D0F1D7 /* TimMcGraw.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = TimMcGraw.html; sourceTree = "<group>"; };
 		806F770710D5965E008FAF4F /* TeardropsOnMyGuitar.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = TeardropsOnMyGuitar.html; sourceTree = "<group>"; };
 		806F773B10D5994D008FAF4F /* APlaceInThisWorld.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = APlaceInThisWorld.html; sourceTree = "<group>"; };
@@ -174,6 +181,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				804C252710D7156C006D13AA /* Splash View */,
 				805CDA1810D4342F00D0F1D7 /* HTML */,
 				289233A00DB2D0730083E9F9 /* Main View */,
 				281C6CD70DB2D82200F60ACC /* Flipside View */,
@@ -182,6 +190,7 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				804C252410D7146B006D13AA /* splashView.xib */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -198,6 +207,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				804C251910D713E0006D13AA /* Default.png */,
 				806F78F110D5C541008FAF4F /* icon.png */,
 				280E754A0DD40C5E005A515E /* FlipsideView.xib */,
 				280E754B0DD40C5E005A515E /* MainView.xib */,
@@ -216,6 +226,15 @@
 				806F77D710D5A846008FAF4F /* MediaPlayer.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		804C252710D7156C006D13AA /* Splash View */ = {
+			isa = PBXGroup;
+			children = (
+				804C252810D715A1006D13AA /* SplashViewController.h */,
+				804C252910D715A1006D13AA /* SplashViewController.m */,
+			);
+			name = "Splash View";
 			sourceTree = "<group>";
 		};
 		805CDA1810D4342F00D0F1D7 /* HTML */ = {
@@ -346,6 +365,8 @@
 				806F781710D5B281008FAF4F /* YoureNotSorry.html in Resources */,
 				806F78F210D5C541008FAF4F /* icon.png in Resources */,
 				806F798710D5D06D008FAF4F /* YouBelongWithMe.html in Resources */,
+				804C251A10D713E0006D13AA /* Default.png in Resources */,
+				804C252510D7146B006D13AA /* splashView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +383,7 @@
 				289233A70DB2D0840083E9F9 /* MainView.m in Sources */,
 				289233AE0DB2D0DB0083E9F9 /* MainViewController.m in Sources */,
 				289233B00DB2D0DB0083E9F9 /* FlipsideViewController.m in Sources */,
+				804C252A10D715A1006D13AA /* SplashViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
