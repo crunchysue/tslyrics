@@ -17,6 +17,8 @@
 @synthesize navItem;
 @synthesize songTitleLabel;
 @synthesize playPauseButton;
+@synthesize musicPlayer;
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -25,12 +27,15 @@
 //	self.navItem.title = self.songTitle;
 	self.songTitleLabel.text = self.songTitle;
 		
+	self.musicPlayer = [MPMusicPlayerController applicationMusicPlayer];
+	
+	
 	[self updatePlayState];
 	
 	[[NSNotificationCenter defaultCenter] addObserver:self 
 											 selector: @selector (playbackStateChanged:) 
 												 name:@"MPMusicPlayerControllerPlaybackStateDidChangeNotification" 
-											   object:nil];
+											   object:musicPlayer];
 	
 	[[MPMusicPlayerController iPodMusicPlayer] beginGeneratingPlaybackNotifications];
 	
@@ -75,12 +80,12 @@
 	[myComplexQuery addFilterPredicate: artistNamePredicate];
 	[myComplexQuery addFilterPredicate: songNamePredicate];
 	
-	MPMusicPlayerController *appMusicPlayer = [MPMusicPlayerController applicationMusicPlayer];	
-	[appMusicPlayer setRepeatMode: MPMusicRepeatModeOne];
+	//MPMusicPlayerController *appMusicPlayer = [MPMusicPlayerController applicationMusicPlayer];	
+	[self.musicPlayer setRepeatMode: MPMusicRepeatModeOne];
 
-	[appMusicPlayer setQueueWithQuery: myComplexQuery];
+	[self.musicPlayer setQueueWithQuery: myComplexQuery];
 
-	[appMusicPlayer play];
+	[self.musicPlayer play];
 	
 	[myComplexQuery release];
 	
@@ -95,32 +100,35 @@
 }
 
 - (IBAction) handlePlayPauseTapped {
-	MPMusicPlayerController *appController = [MPMusicPlayerController applicationMusicPlayer];
-	NSLog(@"playback state is %i", appController.playbackState);
-	if (appController.playbackState == MPMusicPlaybackStatePlaying) {
-		[appController pause];
-	} else if (appController.playbackState == MPMusicPlaybackStateStopped) {
+	
+	if (self.musicPlayer.playbackState == MPMusicPlaybackStatePlaying) {
+		[self.musicPlayer pause];
+	} else if (self.musicPlayer.playbackState == MPMusicPlaybackStateStopped) {
 		[self playSong];
 	} else {
-		[appController play];
+		[self.musicPlayer play];
 	}
 }
 
 - (void) updatePlayState {
-	MPMusicPlayerController *appController = 
-	[MPMusicPlayerController applicationMusicPlayer]; 
-	playPauseButton.selected =
-	(appController.playbackState == MPMusicPlaybackStatePlaying); 
-	NSLog(@"Updating play state to %i", appController.playbackState);
+//	if (self.musicPlayer.playbackState == MPMusicPlaybackStatePlaying) {
+//		NSLog(@"in updatePlayState, state is PLAYING");
+//        [self.playPauseButton setBackgroundImage:[UIImage imageNamed:@"smallPlayButton.png"] forState:UIControlStateNormal];
+//    }
+//    else {
+//        [self.playPauseButton setBackgroundImage:[UIImage imageNamed:@"smallPauseButton.png"] forState:UIControlStateNormal];
+//		NSLog(@"in updatePlayState, state is NOT PLAYING");
+//    }
 }
 
 - (void) stopSong {
-	MPMusicPlayerController *appMusicPlayer = [MPMusicPlayerController applicationMusicPlayer];
-	[appMusicPlayer stop];
+	//MPMusicPlayerController *appMusicPlayer = [MPMusicPlayerController applicationMusicPlayer];
+	[self.musicPlayer stop];
 }
 
 
 - (IBAction)done {
+	[self stopSong];
 	[self.delegate flipsideViewControllerDidFinish:self];	
 }
 
@@ -143,6 +151,7 @@
 - (void)viewDidUnload {
 	// Release any retained subviews of the main view.
 	// e.g. self.myOutlet = nil;
+	[self stopSong];
 }
 
 

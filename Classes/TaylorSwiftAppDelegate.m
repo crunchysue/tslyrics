@@ -18,6 +18,8 @@
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application { 
     
+	sleep(2);
+	
 	MainViewController *aController = [[MainViewController alloc] initWithNibName:@"MainView" bundle:nil];
 	self.mainViewController = aController;
 	[aController release];

@@ -12,7 +12,7 @@
 		</object>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="40"/>
+			<integer value="58"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -148,16 +148,16 @@
 							<bytes key="NSRGB">MC4xOTYwNzg0MzE0IDAuMzA5ODAzOTIxNiAwLjUyMTU2ODYyNzUAA</bytes>
 						</object>
 						<reference key="IBUINormalTitleShadowColor" ref="460021022"/>
-						<object class="NSCustomResource" key="IBUIHighlightedImage" id="107631394">
+						<object class="NSCustomResource" key="IBUIHighlightedImage" id="712201579">
 							<string key="NSClassName">NSImage</string>
 							<string key="NSResourceName">smallStopButton.png</string>
 						</object>
-						<reference key="IBUISelectedImage" ref="107631394"/>
-						<reference key="IBUINormalImage" ref="107631394"/>
+						<reference key="IBUISelectedImage" ref="712201579"/>
+						<reference key="IBUINormalImage" ref="712201579"/>
 					</object>
 					<object class="IBUIButton" id="680327465">
 						<reference key="NSNextResponder" ref="249263867"/>
-						<int key="NSvFlags">292</int>
+						<int key="NSvFlags">301</int>
 						<string key="NSFrame">{{151, 421}, {18, 19}}</string>
 						<reference key="NSSuperview" ref="249263867"/>
 						<bool key="IBUIOpaque">NO</bool>

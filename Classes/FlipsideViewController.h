@@ -19,6 +19,7 @@
 	IBOutlet UILabel *songTitleLabel;
 	IBOutlet UIButton *playPauseButton;
 	NSString *songTitle;
+	MPMusicPlayerController *musicPlayer;
 }
 
 @property (nonatomic, assign) id <FlipsideViewControllerDelegate> delegate;
@@ -26,6 +27,8 @@
 @property (nonatomic, retain) UINavigationItem *navItem;
 @property (nonatomic, retain) UILabel *songTitleLabel;
 @property (nonatomic, retain) UIButton *playPauseButton;
+@property (nonatomic, retain) MPMusicPlayerController *musicPlayer;
+
 
 - (IBAction)done;
 - (void) loadURL;
