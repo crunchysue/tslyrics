@@ -1,0 +1,5 @@
+/Users/sue/iDev/TaylorSwift/Classes/MainViewController.m:194: warning: incomplete implementation of class 'MainViewController'
+/Users/sue/iDev/TaylorSwift/Classes/MainViewController.m:194: warning: method definition for '-showSplash' not found
+/Users/sue/iDev/TaylorSwift/Classes/MainViewController.m:194: warning: incomplete implementation of class 'MainViewController'
+/Users/sue/iDev/TaylorSwift/Classes/MainViewController.m:194: warning: method definition for '-splashViewControllerDidFinish:' not found
+/Users/sue/iDev/TaylorSwift/Classes/MainViewController.m:194: warning: class 'MainViewController' does not fully implement the 'SplashViewControllerDelegate' protocol

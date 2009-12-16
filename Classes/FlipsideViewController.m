@@ -16,6 +16,7 @@
 @synthesize songTitle;
 @synthesize navItem;
 @synthesize songTitleLabel;
+@synthesize playPauseButton;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -23,19 +24,37 @@
 	[self loadURL];
 //	self.navItem.title = self.songTitle;
 	self.songTitleLabel.text = self.songTitle;
-	
+		
+	[self updatePlayState];
 	
 	[[NSNotificationCenter defaultCenter] addObserver:self 
 											 selector: @selector (playbackStateChanged:) 
 												 name:@"MPMusicPlayerControllerPlaybackStateDidChangeNotification" 
-											   object:nil]; 
-	[[NSNotificationCenter defaultCenter] addObserver:self 
-											 selector: @selector (nowPlayingItemChanged:) 
-												 name:@"MPMusicPlayerControllerNowPlayingItemDidChangeNotification" 
-											   object:nil]; 
+											   object:nil];
+	
 	[[MPMusicPlayerController iPodMusicPlayer] beginGeneratingPlaybackNotifications];
 	
 
+}
+
+
+- (IBAction) showSplashView {
+	
+	NSLog(@"showing splash");
+	
+	SplashViewController *controller = [[SplashViewController alloc] initWithNibName:@"SplashViewController" bundle:nil];
+	controller.delegate = self;
+	
+	controller.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
+	[self presentModalViewController:controller animated:YES];
+	
+	[controller release];
+}
+
+- (void)splashViewControllerDidFinish:(SplashViewController *)controller {
+    
+	[self dismissModalViewControllerAnimated:YES];
+	
 }
 
 
@@ -65,6 +84,34 @@
 	
 	[myComplexQuery release];
 	
+}
+
+
+#pragma mark notification callbacks
+
+-(void) playbackStateChanged: (NSNotification*) notification {
+	NSLog(@"Just got notified that playback changed");
+	[self updatePlayState];
+}
+
+- (IBAction) handlePlayPauseTapped {
+	MPMusicPlayerController *appController = [MPMusicPlayerController applicationMusicPlayer];
+	NSLog(@"playback state is %i", appController.playbackState);
+	if (appController.playbackState == MPMusicPlaybackStatePlaying) {
+		[appController pause];
+	} else if (appController.playbackState == MPMusicPlaybackStateStopped) {
+		[self playSong];
+	} else {
+		[appController play];
+	}
+}
+
+- (void) updatePlayState {
+	MPMusicPlayerController *appController = 
+	[MPMusicPlayerController applicationMusicPlayer]; 
+	playPauseButton.selected =
+	(appController.playbackState == MPMusicPlaybackStatePlaying); 
+	NSLog(@"Updating play state to %i", appController.playbackState);
 }
 
 - (void) stopSong {

@@ -1,7 +1,7 @@
 TTaylorSwift
 v7
 r0
-t282529549.652432
+t282633455.421719
 cCheck dependencies
 cCpResource build/Debug-iphoneos/TaylorSwift.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
 cProcessInfoPlistFile /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/Info.plist TaylorSwift-Info.plist
@@ -33,7 +33,7 @@ cCpResource build/Debug-iphoneos/TaylorSwift.app/Forever&AlwaysPianoVersion.html
 cCpResource build/Debug-iphoneos/TaylorSwift.app/HeyStephen.html HeyStephen.html
 cCpResource build/Debug-iphoneos/TaylorSwift.app/JumpThenFall.html JumpThenFall.html
 cCpResource build/Debug-iphoneos/TaylorSwift.app/LoveStory.html LoveStory.html
-cCpResource build/Debug-iphoneos/TaylorSwift.app/SuperStar.html SuperStar.html
+cCpResource build/Debug-iphoneos/TaylorSwift.app/Superstar.html Superstar.html
 cCpResource build/Debug-iphoneos/TaylorSwift.app/TellMeWhy.html TellMeWhy.html
 cCpResource build/Debug-iphoneos/TaylorSwift.app/TheBestDay.html TheBestDay.html
 cCpResource build/Debug-iphoneos/TaylorSwift.app/TheOtherSideOfTheDoor.html TheOtherSideOfTheDoor.html
@@ -43,7 +43,11 @@ cCpResource build/Debug-iphoneos/TaylorSwift.app/WhiteHorse.html WhiteHorse.html
 cCpResource build/Debug-iphoneos/TaylorSwift.app/YoureNotSorry.html YoureNotSorry.html
 cCopyPNGFile /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/icon.png icon.png
 cCpResource build/Debug-iphoneos/TaylorSwift.app/YouBelongWithMe.html YouBelongWithMe.html
-cCopyPNGFile /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/default.png default.png
+cCopyPNGFile /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/Default.png Default.png
+cCompileXIB /Users/sue/iDev/TaylorSwift/SplashViewController.xib
+cCopyPNGFile /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/smallPlayButton.png smallPlayButton.png
+cCopyPNGFile /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/smallPauseButton.png smallPauseButton.png
+cCopyPNGFile /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/smallStopButton.png smallStopButton.png
 cProcessPCH /var/folders/lk/lk6jBUK1EtmBa5R34Rl9U++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaylorSwift_Prefix-btpmnetjwdsyqifjfdxhflkmcmpp/TaylorSwift_Prefix.pch.gch TaylorSwift_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/Objects-normal/armv6/main.o /Users/sue/iDev/TaylorSwift/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/Objects-normal/armv6/TaylorSwiftAppDelegate.o /Users/sue/iDev/TaylorSwift/Classes/TaylorSwiftAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
@@ -51,6 +55,7 @@ cCompileC build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/Objects-norma
 cCompileC build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/Objects-normal/armv6/MainView.o /Users/sue/iDev/TaylorSwift/Classes/MainView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/Objects-normal/armv6/MainViewController.o /Users/sue/iDev/TaylorSwift/Classes/MainViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/Objects-normal/armv6/FlipsideViewController.o /Users/sue/iDev/TaylorSwift/Classes/FlipsideViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/Objects-normal/armv6/SplashViewController.o /Users/sue/iDev/TaylorSwift/SplashViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 cLd /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/TaylorSwift normal armv6
 cGenerateDSYMFile /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app.dSYM /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/TaylorSwift
 cProcessProductPackaging "/Users/sue/Library/MobileDevice/Provisioning Profiles/0E6D64E6-D3EC-4C92-B0C8-2C400CEFCCF5.mobileprovision" /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/embedded.mobileprovision
@@ -150,14 +155,16 @@ s445
 i"FlipsideView.h"
 
 N/Users/sue/iDev/TaylorSwift/Classes/FlipsideViewController.h
-c000000004B2581AE000000000000036F
-t1260749230
-s879
+c000000004B286D68000000000000048D
+t1260940648
+s1165
+i"SplashViewController.h"
+i<MediaPlayer/MediaPlayer.h>
 
 N/Users/sue/iDev/TaylorSwift/Classes/FlipsideViewController.m
-c000000004B25928A0000000000000E61
-t1260753546
-s3681
+c000000004B286C140000000000001324
+t1260940308
+s4900
 i"FlipsideViewController.h"
 i"TaylorSwiftAppDelegate.h"
 
@@ -174,28 +181,28 @@ s430
 i"MainView.h"
 
 N/Users/sue/iDev/TaylorSwift/Classes/MainViewController.h
-c000000004B257E880000000000000276
-t1260748424
-s630
+c000000004B286AB70000000000000294
+t1260939959
+s660
 i"FlipsideViewController.h"
 
 N/Users/sue/iDev/TaylorSwift/Classes/MainViewController.m
-c000000004B259A6100000000000012E0
-t1260755553
-s4832
+c000000004B28553200000000000012E3
+t1260934450
+s4835
 i"MainViewController.h"
 i"MainView.h"
 
 N/Users/sue/iDev/TaylorSwift/Classes/TaylorSwiftAppDelegate.h
-c000000004B25874900000000000001E7
-t1260750665
+c000000004B284BD400000000000001E7
+t1260932052
 s487
 i<MediaPlayer/MediaPlayer.h>
 
 N/Users/sue/iDev/TaylorSwift/Classes/TaylorSwiftAppDelegate.m
-c000000004B26D78A0000000000000343
-t1260836746
-s835
+c000000004B2850D70000000000000337
+t1260933335
+s823
 i"TaylorSwiftAppDelegate.h"
 i"MainViewController.h"
 
@@ -209,6 +216,11 @@ c000000004B25942C000000000000065A
 t1260753964
 s1626
 
+N/Users/sue/iDev/TaylorSwift/Default.png
+c000000004B26DC1A0000000000038F8D
+t1260837914
+s233357
+
 N/Users/sue/iDev/TaylorSwift/Fearless.html
 c000000004B257D5300000000000007A4
 t1260748115
@@ -220,9 +232,9 @@ t1260748119
 s2583
 
 N/Users/sue/iDev/TaylorSwift/FlipsideView.xib
-c000000004B2592FD00000000000072BA
-t1260753661
-s29370
+c000000004B286B260000000000007C2B
+t1260940070
+s31787
 
 N/Users/sue/iDev/TaylorSwift/Forever&Always.html
 c000000004B257D5B0000000000000A77
@@ -289,12 +301,34 @@ c000000004B2563900000000000000608
 t1260741520
 s1544
 
+N/Users/sue/iDev/TaylorSwift/SplashViewController.h
+c000000004B284F6C0000000000000222
+t1260932972
+s546
+i<UIKit/UIKit.h>
+
+N/Users/sue/iDev/TaylorSwift/SplashViewController.m
+c000000004B284E420000000000000604
+t1260932674
+s1540
+i"SplashViewController.h"
+
+N/Users/sue/iDev/TaylorSwift/SplashViewController.xib
+c000000004B28556300000000000046F0
+t1260934499
+s18160
+
 N/Users/sue/iDev/TaylorSwift/StayBeautiful.html
 c000000004B2563A700000000000006C3
 t1260741543
 s1731
 
 N/Users/sue/iDev/TaylorSwift/SuperStar.html
+c000000004B257D71000000000000077B
+t1260748145
+s1915
+
+N/Users/sue/iDev/TaylorSwift/Superstar.html
 c000000004B257D71000000000000077B
 t1260748145
 s1915
@@ -368,171 +402,183 @@ t1260748178
 s1965
 
 N/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app
-t1260836749
-s1632
+t1260940649
+s1768
 
 N/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app.dSYM
-t1260836749
+t1260940648
 s102
 
 N/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/APerfectlyGoodHeart.html
-t1260751147
+t1260939215
 s1706
 
 N/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/APlaceInThisWorld.html
-t1260751147
+t1260939215
 s1135
 
 N/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/Breathe.html
-t1260751147
+t1260939215
 s2354
 
 N/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/Change.html
-t1260751147
+t1260939215
 s1978
 
 N/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/ColdAsYou.html
-t1260751147
+t1260939215
 s1444
 
 N/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/ComeInWithTheRain.html
-t1260753999
+t1260939215
 s1626
 
+N/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/Default.png
+t1260939216
+s290976
+
 N/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/Fearless.html
-t1260751147
+t1260939215
 s1956
 
 N/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/Fifteen.html
-t1260751147
+t1260939215
 s2583
 
 N/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/FlipsideView.nib
-t1260753664
-s4267
+t1260940072
+s4926
 
 N/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/Forever&Always.html
-t1260751147
+t1260939215
 s2679
 
 N/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/Forever&AlwaysPianoVersion.html
-t1260751147
+t1260939215
 s2818
 
 N/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/HeyStephen.html
-t1260751147
+t1260939215
 s1789
 
 N/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/ImOnlyMeWhenImWithYou.html
-t1260751147
+t1260939215
 s1796
 
 N/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/Info.plist
-t1260751147
+t1260939214
 s646
 
 N/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/Invisible.html
-t1260751147
+t1260939215
 s1475
 
 N/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/JumpThenFall.html
-t1260751147
+t1260939215
 s2514
 
 N/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/LoveStory.html
-t1260751147
+t1260939215
 s2525
 
 N/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/MainView.nib
-t1260817812
+t1260939214
 s1752
 
 N/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/MainWindow.nib
-t1260751147
+t1260939215
 s1383
 
 N/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/MarysSong.html
-t1260751147
+t1260939215
 s2095
 
 N/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/OurSong.html
-t1260751147
+t1260939215
 s1669
 
 N/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/PictureToBurn.html
-t1260751147
+t1260939215
 s1698
 
 N/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/PkgInfo
-t1260751147
+t1260939214
 s8
 
 N/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/ResourceRules.plist
-t1260751147
+t1260939214
 s485
 
 N/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/ShouldveSaidNo.html
-t1260751147
+t1260939215
 s1544
 
+N/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/SplashViewController.nib
+t1260939215
+s2064
+
 N/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/StayBeautiful.html
-t1260751147
+t1260939215
 s1731
 
 N/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/SuperStar.html
 t1260751147
 s1915
 
+N/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/Superstar.html
+t1260939215
+s1915
+
 N/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/TaylorSwift
-t1260836749
-s41324
+t1260940648
+s49744
 
 N/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/TeardropsOnMyGuitar.html
-t1260751147
+t1260939215
 s1736
 
 N/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/TellMeWhy.html
-t1260751147
+t1260939215
 s2230
 
 N/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/TheBestDay.html
-t1260751147
+t1260939215
 s2322
 
 N/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/TheOtherSideOfTheDoor.html
-t1260751147
+t1260939215
 s2445
 
 N/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/TheOutside.html
-t1260751147
+t1260939215
 s1360
 
 N/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/TheWayILovedYou.html
-t1260751147
+t1260939215
 s2300
 
 N/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/TiedTogetherWithASmile.html
-t1260751147
+t1260939215
 s1271
 
 N/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/TimMcGraw.html
-t1260751147
+t1260939215
 s2425
 
 N/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/Untouchable.html
-t1260751147
+t1260939215
 s2138
 
 N/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/WhiteHorse.html
-t1260751147
+t1260939215
 s2118
 
 N/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/YouBelongWithMe.html
-t1260755247
+t1260939215
 s2495
 
 N/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/YoureNotSorry.html
-t1260751147
+t1260939215
 s1965
 
 N/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/caitlin-splash.png
@@ -544,16 +590,40 @@ t1260836748
 s277420
 
 N/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/embedded.mobileprovision
-t1260751149
+t1260939217
 s7217
 
 N/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/icon.png
-t1260752366
+t1260939215
 s123770
 
+N/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/pauseButton.png
+t2
+s0
+
+N/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/smallPauseButton.png
+t1260939215
+s2846
+
+N/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/smallPlayButton.png
+t1260939215
+s2655
+
+N/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/smallStopButton.png
+t1260939215
+s2417
+
 N/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/songStyles.css
-t1260751147
+t1260939215
 s61
+
+N/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/splashView.nib
+t1260929946
+s1329
+
+N/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/stopButton.png
+t2
+s0
 
 N/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/taylorswift.jpg
 t2
@@ -564,36 +634,40 @@ t2
 s0
 
 N/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/Objects-normal/armv6/FlipsideView.o
-t1260751149
+t1260939216
 s9588
 
 N/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/Objects-normal/armv6/FlipsideViewController.o
-t1260753548
-s46412
+t1260940648
+s52688
 
 N/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/Objects-normal/armv6/MainView.o
-t1260751149
+t1260939216
 s9528
 
 N/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/Objects-normal/armv6/MainViewController.o
-t1260755554
-s54332
+t1260940648
+s54356
+
+N/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/Objects-normal/armv6/SplashViewController.o
+t1260939216
+s31800
 
 N/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/Objects-normal/armv6/TaylorSwift.LinkFileList
-c000000004B25892B00000000000002E4
-t1260751147
-s740
+c000000004B2867CE0000000000000365
+t1260939214
+s869
 
 N/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/Objects-normal/armv6/TaylorSwiftAppDelegate.o
-t1260836748
-s42752
+t1260940648
+s42652
 
 N/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/Objects-normal/armv6/main.o
-t1260751149
+t1260939216
 s6528
 
 N/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift.xcent
-t1260751149
+t1260939217
 s324
 
 N/Users/sue/iDev/TaylorSwift/caitlin-splash.png
@@ -617,10 +691,40 @@ t1260649348
 s362
 i<UIKit/UIKit.h>
 
+N/Users/sue/iDev/TaylorSwift/pauseButton.png
+c000000004B2861B70000000000009E9A
+t1260937655
+s40602
+
+N/Users/sue/iDev/TaylorSwift/smallPauseButton.png
+c000000004B2864BB000000000000092F
+t1260938427
+s2351
+
+N/Users/sue/iDev/TaylorSwift/smallPlayButton.png
+c000000004B28643400000000000009BD
+t1260938292
+s2493
+
+N/Users/sue/iDev/TaylorSwift/smallStopButton.png
+c000000004B2864AC0000000000000826
+t1260938412
+s2086
+
 N/Users/sue/iDev/TaylorSwift/songStyles.css
 c000000004B256888000000000000003D
 t1260742792
 s61
+
+N/Users/sue/iDev/TaylorSwift/splashView.xib
+c000000004B26DD1500000000000034B5
+t1260838165
+s13493
+
+N/Users/sue/iDev/TaylorSwift/stopButton.png
+c000000004B285E7A0000000000007492
+t1260936826
+s29842
 
 N/Users/sue/iDev/TaylorSwift/taylorswift.jpg
 c000000004B258CEE0000000000001265
@@ -633,7 +737,7 @@ t1260752293
 s114298
 
 N/var/folders/lk/lk6jBUK1EtmBa5R34Rl9U++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaylorSwift_Prefix-btpmnetjwdsyqifjfdxhflkmcmpp/TaylorSwift_Prefix.pch.gch
-t1260751148
+t1260939216
 s7876792
 
 NTaylorSwift-Info.plist
@@ -643,19 +747,19 @@ s909
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies282529547#282529548#0(0"0(0#1#0"31244212048494624#0"0#
+lSLF07#2@18"Check dependencies282633455#282633455#0(0"0(0#1#0"4300885448#0"0#
 
 CCodeSign /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app
-s282529549.128534
-e282529549.652288
+s282633448.993658
+e282633449.433094
 r1
 xCodeSign
 x/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app
-lSLF07#2@45"CodeSign build/Debug-iphoneos/TaylorSwift.app282529549#282529549#0(0"0(0#0#64"/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app4300885448#681"    cd /Users/sue/iDev/TaylorSwift    setenv CODESIGN_ALLOCATE /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/codesign -f -s "iPhone Developer: Sue Brown (KFMST6PZZ9)" --resource-rules=/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/ResourceRules.plist --entitlements /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift.xcent /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
+lSLF07#2@45"CodeSign build/Debug-iphoneos/TaylorSwift.app282633448#282633449#0(0"0(0#0#64"/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app4300885448#681"    cd /Users/sue/iDev/TaylorSwift    setenv CODESIGN_ALLOCATE /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/codesign -f -s "iPhone Developer: Sue Brown (KFMST6PZZ9)" --resource-rules=/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/ResourceRules.plist --entitlements /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift.xcent /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
 
 CCompileC build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/Objects-normal/armv6/FlipsideView.o /Users/sue/iDev/TaylorSwift/Classes/FlipsideView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s282443949.270639
-e282443949.364078
+s282632016.728224
+e282632016.785853
 r1
 xCompileC
 xbuild/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/Objects-normal/armv6/FlipsideView.o
@@ -664,11 +768,11 @@ xnormal
 xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@58"Compile /Users/sue/iDev/TaylorSwift/Classes/FlipsideView.m282443949#282443949#0(0"0(0#0#50"/Users/sue/iDev/TaylorSwift/Classes/FlipsideView.m4300885448#1773"    cd /Users/sue/iDev/TaylorSwift    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift-generated-files.hmap -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift-own-target-headers.hmap -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift-all-target-headers.hmap -iquote /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift-project-headers.hmap -F/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos -I/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/include -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/DerivedSources/armv6 -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/DerivedSources -include /var/folders/lk/lk6jBUK1EtmBa5R34Rl9U++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaylorSwift_Prefix-btpmnetjwdsyqifjfdxhflkmcmpp/TaylorSwift_Prefix.pch -c /Users/sue/iDev/TaylorSwift/Classes/FlipsideView.m -o /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/Objects-normal/armv6/FlipsideView.o0#
+lSLF07#2@58"Compile /Users/sue/iDev/TaylorSwift/Classes/FlipsideView.m282632016#282632016#0(0"0(0#0#50"/Users/sue/iDev/TaylorSwift/Classes/FlipsideView.m4300885448#1773"    cd /Users/sue/iDev/TaylorSwift    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift-generated-files.hmap -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift-own-target-headers.hmap -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift-all-target-headers.hmap -iquote /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift-project-headers.hmap -F/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos -I/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/include -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/DerivedSources/armv6 -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/DerivedSources -include /var/folders/lk/lk6jBUK1EtmBa5R34Rl9U++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaylorSwift_Prefix-btpmnetjwdsyqifjfdxhflkmcmpp/TaylorSwift_Prefix.pch -c /Users/sue/iDev/TaylorSwift/Classes/FlipsideView.m -o /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/Objects-normal/armv6/FlipsideView.o0#
 
 CCompileC build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/Objects-normal/armv6/FlipsideViewController.o /Users/sue/iDev/TaylorSwift/Classes/FlipsideViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s282446348.692905
-e282446348.827272
+s282633448.809708
+e282633448.920567
 r1
 xCompileC
 xbuild/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/Objects-normal/armv6/FlipsideViewController.o
@@ -677,11 +781,11 @@ xnormal
 xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@68"Compile /Users/sue/iDev/TaylorSwift/Classes/FlipsideViewController.m282446348#282446348#0(0"0(0#0#60"/Users/sue/iDev/TaylorSwift/Classes/FlipsideViewController.m4300885448#1793"    cd /Users/sue/iDev/TaylorSwift    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift-generated-files.hmap -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift-own-target-headers.hmap -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift-all-target-headers.hmap -iquote /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift-project-headers.hmap -F/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos -I/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/include -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/DerivedSources/armv6 -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/DerivedSources -include /var/folders/lk/lk6jBUK1EtmBa5R34Rl9U++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaylorSwift_Prefix-btpmnetjwdsyqifjfdxhflkmcmpp/TaylorSwift_Prefix.pch -c /Users/sue/iDev/TaylorSwift/Classes/FlipsideViewController.m -o /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/Objects-normal/armv6/FlipsideViewController.o0#
+lSLF07#2@68"Compile /Users/sue/iDev/TaylorSwift/Classes/FlipsideViewController.m282633448#282633448#0(0"0(0#0#60"/Users/sue/iDev/TaylorSwift/Classes/FlipsideViewController.m4300885448#1793"    cd /Users/sue/iDev/TaylorSwift    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift-generated-files.hmap -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift-own-target-headers.hmap -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift-all-target-headers.hmap -iquote /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift-project-headers.hmap -F/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos -I/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/include -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/DerivedSources/armv6 -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/DerivedSources -include /var/folders/lk/lk6jBUK1EtmBa5R34Rl9U++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaylorSwift_Prefix-btpmnetjwdsyqifjfdxhflkmcmpp/TaylorSwift_Prefix.pch -c /Users/sue/iDev/TaylorSwift/Classes/FlipsideViewController.m -o /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/Objects-normal/armv6/FlipsideViewController.o0#
 
 CCompileC build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/Objects-normal/armv6/MainView.o /Users/sue/iDev/TaylorSwift/Classes/MainView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s282443949.323582
-e282443949.393259
+s282632016.766622
+e282632016.848225
 r1
 xCompileC
 xbuild/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/Objects-normal/armv6/MainView.o
@@ -690,11 +794,11 @@ xnormal
 xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@54"Compile /Users/sue/iDev/TaylorSwift/Classes/MainView.m282443949#282443949#0(0"0(0#0#46"/Users/sue/iDev/TaylorSwift/Classes/MainView.m4300885448#1765"    cd /Users/sue/iDev/TaylorSwift    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift-generated-files.hmap -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift-own-target-headers.hmap -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift-all-target-headers.hmap -iquote /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift-project-headers.hmap -F/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos -I/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/include -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/DerivedSources/armv6 -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/DerivedSources -include /var/folders/lk/lk6jBUK1EtmBa5R34Rl9U++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaylorSwift_Prefix-btpmnetjwdsyqifjfdxhflkmcmpp/TaylorSwift_Prefix.pch -c /Users/sue/iDev/TaylorSwift/Classes/MainView.m -o /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/Objects-normal/armv6/MainView.o0#
+lSLF07#2@54"Compile /Users/sue/iDev/TaylorSwift/Classes/MainView.m282632016#282632016#0(0"0(0#0#46"/Users/sue/iDev/TaylorSwift/Classes/MainView.m4300885448#1765"    cd /Users/sue/iDev/TaylorSwift    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift-generated-files.hmap -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift-own-target-headers.hmap -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift-all-target-headers.hmap -iquote /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift-project-headers.hmap -F/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos -I/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/include -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/DerivedSources/armv6 -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/DerivedSources -include /var/folders/lk/lk6jBUK1EtmBa5R34Rl9U++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaylorSwift_Prefix-btpmnetjwdsyqifjfdxhflkmcmpp/TaylorSwift_Prefix.pch -c /Users/sue/iDev/TaylorSwift/Classes/MainView.m -o /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/Objects-normal/armv6/MainView.o0#
 
 CCompileC build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/Objects-normal/armv6/MainViewController.o /Users/sue/iDev/TaylorSwift/Classes/MainViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s282448354.188507
-e282448354.353072
+s282633448.719905
+e282633448.842563
 r1
 xCompileC
 xbuild/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/Objects-normal/armv6/MainViewController.o
@@ -703,11 +807,24 @@ xnormal
 xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@64"Compile /Users/sue/iDev/TaylorSwift/Classes/MainViewController.m282448354#282448354#0(0"0(0#0#56"/Users/sue/iDev/TaylorSwift/Classes/MainViewController.m4300885448#1785"    cd /Users/sue/iDev/TaylorSwift    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift-generated-files.hmap -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift-own-target-headers.hmap -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift-all-target-headers.hmap -iquote /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift-project-headers.hmap -F/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos -I/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/include -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/DerivedSources/armv6 -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/DerivedSources -include /var/folders/lk/lk6jBUK1EtmBa5R34Rl9U++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaylorSwift_Prefix-btpmnetjwdsyqifjfdxhflkmcmpp/TaylorSwift_Prefix.pch -c /Users/sue/iDev/TaylorSwift/Classes/MainViewController.m -o /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/Objects-normal/armv6/MainViewController.o0#
+lSLF07#2@64"Compile /Users/sue/iDev/TaylorSwift/Classes/MainViewController.m282633448#282633448#0(0"0(0#0#56"/Users/sue/iDev/TaylorSwift/Classes/MainViewController.m4300885448#1785"    cd /Users/sue/iDev/TaylorSwift    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift-generated-files.hmap -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift-own-target-headers.hmap -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift-all-target-headers.hmap -iquote /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift-project-headers.hmap -F/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos -I/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/include -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/DerivedSources/armv6 -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/DerivedSources -include /var/folders/lk/lk6jBUK1EtmBa5R34Rl9U++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaylorSwift_Prefix-btpmnetjwdsyqifjfdxhflkmcmpp/TaylorSwift_Prefix.pch -c /Users/sue/iDev/TaylorSwift/Classes/MainViewController.m -o /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/Objects-normal/armv6/MainViewController.o0#
+
+CCompileC build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/Objects-normal/armv6/SplashViewController.o /Users/sue/iDev/TaylorSwift/SplashViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s282632016.917498
+e282632016.988291
+r1
+xCompileC
+xbuild/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/Objects-normal/armv6/SplashViewController.o
+x/Users/sue/iDev/TaylorSwift/SplashViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/sue/iDev/TaylorSwift/SplashViewController.m282632016#282632016#0(0"0(0#0#50"/Users/sue/iDev/TaylorSwift/SplashViewController.m4300885448#1781"    cd /Users/sue/iDev/TaylorSwift    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift-generated-files.hmap -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift-own-target-headers.hmap -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift-all-target-headers.hmap -iquote /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift-project-headers.hmap -F/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos -I/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/include -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/DerivedSources/armv6 -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/DerivedSources -include /var/folders/lk/lk6jBUK1EtmBa5R34Rl9U++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaylorSwift_Prefix-btpmnetjwdsyqifjfdxhflkmcmpp/TaylorSwift_Prefix.pch -c /Users/sue/iDev/TaylorSwift/SplashViewController.m -o /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/Objects-normal/armv6/SplashViewController.o0#
 
 CCompileC build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/Objects-normal/armv6/TaylorSwiftAppDelegate.o /Users/sue/iDev/TaylorSwift/Classes/TaylorSwiftAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s282529548.724791
-e282529548.954467
+s282633448.718678
+e282633448.809589
 r1
 xCompileC
 xbuild/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/Objects-normal/armv6/TaylorSwiftAppDelegate.o
@@ -716,11 +833,11 @@ xnormal
 xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@68"Compile /Users/sue/iDev/TaylorSwift/Classes/TaylorSwiftAppDelegate.m282529548#282529548#0(0"0(0#0#60"/Users/sue/iDev/TaylorSwift/Classes/TaylorSwiftAppDelegate.m4300885448#1793"    cd /Users/sue/iDev/TaylorSwift    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift-generated-files.hmap -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift-own-target-headers.hmap -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift-all-target-headers.hmap -iquote /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift-project-headers.hmap -F/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos -I/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/include -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/DerivedSources/armv6 -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/DerivedSources -include /var/folders/lk/lk6jBUK1EtmBa5R34Rl9U++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaylorSwift_Prefix-btpmnetjwdsyqifjfdxhflkmcmpp/TaylorSwift_Prefix.pch -c /Users/sue/iDev/TaylorSwift/Classes/TaylorSwiftAppDelegate.m -o /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/Objects-normal/armv6/TaylorSwiftAppDelegate.o0#
+lSLF07#2@68"Compile /Users/sue/iDev/TaylorSwift/Classes/TaylorSwiftAppDelegate.m282633448#282633448#0(0"0(0#0#60"/Users/sue/iDev/TaylorSwift/Classes/TaylorSwiftAppDelegate.m4300885448#1793"    cd /Users/sue/iDev/TaylorSwift    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift-generated-files.hmap -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift-own-target-headers.hmap -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift-all-target-headers.hmap -iquote /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift-project-headers.hmap -F/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos -I/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/include -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/DerivedSources/armv6 -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/DerivedSources -include /var/folders/lk/lk6jBUK1EtmBa5R34Rl9U++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaylorSwift_Prefix-btpmnetjwdsyqifjfdxhflkmcmpp/TaylorSwift_Prefix.pch -c /Users/sue/iDev/TaylorSwift/Classes/TaylorSwiftAppDelegate.m -o /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/Objects-normal/armv6/TaylorSwiftAppDelegate.o0#
 
 CCompileC build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/Objects-normal/armv6/main.o /Users/sue/iDev/TaylorSwift/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s282443949.200033
-e282443949.270514
+s282632016.677096
+e282632016.728114
 r1
 xCompileC
 xbuild/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/Objects-normal/armv6/main.o
@@ -729,31 +846,56 @@ xnormal
 xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@42"Compile /Users/sue/iDev/TaylorSwift/main.m282443949#282443949#0(0"0(0#0#34"/Users/sue/iDev/TaylorSwift/main.m4300885448#1749"    cd /Users/sue/iDev/TaylorSwift    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift-generated-files.hmap -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift-own-target-headers.hmap -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift-all-target-headers.hmap -iquote /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift-project-headers.hmap -F/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos -I/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/include -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/DerivedSources/armv6 -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/DerivedSources -include /var/folders/lk/lk6jBUK1EtmBa5R34Rl9U++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaylorSwift_Prefix-btpmnetjwdsyqifjfdxhflkmcmpp/TaylorSwift_Prefix.pch -c /Users/sue/iDev/TaylorSwift/main.m -o /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/Objects-normal/armv6/main.o0#
+lSLF07#2@42"Compile /Users/sue/iDev/TaylorSwift/main.m282632016#282632016#0(0"0(0#0#34"/Users/sue/iDev/TaylorSwift/main.m4300885448#1749"    cd /Users/sue/iDev/TaylorSwift    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift-generated-files.hmap -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift-own-target-headers.hmap -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift-all-target-headers.hmap -iquote /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift-project-headers.hmap -F/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos -I/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/include -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/DerivedSources/armv6 -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/DerivedSources -include /var/folders/lk/lk6jBUK1EtmBa5R34Rl9U++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaylorSwift_Prefix-btpmnetjwdsyqifjfdxhflkmcmpp/TaylorSwift_Prefix.pch -c /Users/sue/iDev/TaylorSwift/main.m -o /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/Objects-normal/armv6/main.o0#
 
 CCompileXIB /Users/sue/iDev/TaylorSwift/FlipsideView.xib
-s282446464.458002
-e282446464.904504
+s282632872.011013
+e282632872.579556
 r1
 xCompileXIB
 x/Users/sue/iDev/TaylorSwift/FlipsideView.xib
-lSLF07#2@27"CompileXIB FlipsideView.xib282446464#282446464#0(0"0(0#0#44"/Users/sue/iDev/TaylorSwift/FlipsideView.xib4300885448#505"    cd /Users/sue/iDev/TaylorSwift    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/FlipsideView.nib /Users/sue/iDev/TaylorSwift/FlipsideView.xib0#
+lSLF07#2@27"CompileXIB FlipsideView.xib282632872#282632872#0(0"0(0#0#44"/Users/sue/iDev/TaylorSwift/FlipsideView.xib4300885448#505"    cd /Users/sue/iDev/TaylorSwift    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/FlipsideView.nib /Users/sue/iDev/TaylorSwift/FlipsideView.xib0#
 
 CCompileXIB /Users/sue/iDev/TaylorSwift/MainView.xib
-s282510612.361166
-e282510612.661684
+s282632014.490288
+e282632015.023444
 r1
 xCompileXIB
 x/Users/sue/iDev/TaylorSwift/MainView.xib
-lSLF07#2@23"CompileXIB MainView.xib282510612#282510612#0(0"0(0#0#40"/Users/sue/iDev/TaylorSwift/MainView.xib4300885448#497"    cd /Users/sue/iDev/TaylorSwift    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/MainView.nib /Users/sue/iDev/TaylorSwift/MainView.xib0#
+lSLF07#2@23"CompileXIB MainView.xib282632014#282632015#0(0"0(0#0#40"/Users/sue/iDev/TaylorSwift/MainView.xib4300885448#497"    cd /Users/sue/iDev/TaylorSwift    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/MainView.nib /Users/sue/iDev/TaylorSwift/MainView.xib0#
 
 CCompileXIB /Users/sue/iDev/TaylorSwift/MainWindow.xib
-s282443947.636708
-e282443947.999191
+s282632015.023543
+e282632015.385269
 r1
 xCompileXIB
 x/Users/sue/iDev/TaylorSwift/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib282443947#282443947#0(0"0(0#0#42"/Users/sue/iDev/TaylorSwift/MainWindow.xib4300885448#501"    cd /Users/sue/iDev/TaylorSwift    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/MainWindow.nib /Users/sue/iDev/TaylorSwift/MainWindow.xib0#
+lSLF07#2@25"CompileXIB MainWindow.xib282632015#282632015#0(0"0(0#0#42"/Users/sue/iDev/TaylorSwift/MainWindow.xib4300885448#501"    cd /Users/sue/iDev/TaylorSwift    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/MainWindow.nib /Users/sue/iDev/TaylorSwift/MainWindow.xib0#
+
+CCompileXIB /Users/sue/iDev/TaylorSwift/SplashViewController.xib
+s282632015.385362
+e282632015.809560
+r1
+xCompileXIB
+x/Users/sue/iDev/TaylorSwift/SplashViewController.xib
+lSLF07#2@35"CompileXIB SplashViewController.xib282632015#282632015#0(0"0(0#0#52"/Users/sue/iDev/TaylorSwift/SplashViewController.xib4300885448#521"    cd /Users/sue/iDev/TaylorSwift    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/SplashViewController.nib /Users/sue/iDev/TaylorSwift/SplashViewController.xib0#
+
+CCompileXIB /Users/sue/iDev/TaylorSwift/splashView.xib
+s282622745.882861
+e282622746.201976
+r1
+xCompileXIB
+x/Users/sue/iDev/TaylorSwift/splashView.xib
+lSLF07#2@25"CompileXIB splashView.xib282622745#282622746#0(0"0(0#0#42"/Users/sue/iDev/TaylorSwift/splashView.xib4300885448#501"    cd /Users/sue/iDev/TaylorSwift    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/splashView.nib /Users/sue/iDev/TaylorSwift/splashView.xib0#
+
+CCopyPNGFile /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/Default.png Default.png
+s282632015.369970
+e282632016.132078
+r1
+xCopyPNGFile
+x/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/Default.png
+xDefault.png
+lSLF07#2@72"CopyPNGFile build/Debug-iphoneos/TaylorSwift.app/Default.png Default.png282632015#282632016#0(0"0(0#0#39"/Users/sue/iDev/TaylorSwift/Default.png4300885448#595"    cd /Users/sue/iDev/TaylorSwift    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/sue/iDev/TaylorSwift/Default.png /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/Default.png0#
 
 CCopyPNGFile /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/caitlin-splash.png caitlin-splash.png
 r0
@@ -768,205 +910,238 @@ xdefault.png
 lSLF07#2@72"CopyPNGFile build/Debug-iphoneos/TaylorSwift.app/default.png default.png282529548#282529548#0(0"0(0#0#39"/Users/sue/iDev/TaylorSwift/default.png32651535391981688#595"    cd /Users/sue/iDev/TaylorSwift    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/sue/iDev/TaylorSwift/default.png /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/default.png0#
 
 CCopyPNGFile /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/icon.png icon.png
-s282445166.291380
-e282445166.452330
+s282632015.191128
+e282632015.369079
 r1
 xCopyPNGFile
 x/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/icon.png
 xicon.png
-lSLF07#2@66"CopyPNGFile build/Debug-iphoneos/TaylorSwift.app/icon.png icon.png282445166#282445166#0(0"0(0#0#36"/Users/sue/iDev/TaylorSwift/icon.png4300885448#589"    cd /Users/sue/iDev/TaylorSwift    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/sue/iDev/TaylorSwift/icon.png /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/icon.png0#
+lSLF07#2@66"CopyPNGFile build/Debug-iphoneos/TaylorSwift.app/icon.png icon.png282632015#282632015#0(0"0(0#0#36"/Users/sue/iDev/TaylorSwift/icon.png4300885448#589"    cd /Users/sue/iDev/TaylorSwift    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/sue/iDev/TaylorSwift/icon.png /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/icon.png0#
+
+CCopyPNGFile /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/pauseButton.png pauseButton.png
+r0
+
+CCopyPNGFile /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/smallPauseButton.png smallPauseButton.png
+s282632015.839927
+e282632015.869198
+r1
+xCopyPNGFile
+x/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/smallPauseButton.png
+xsmallPauseButton.png
+lSLF07#2@90"CopyPNGFile build/Debug-iphoneos/TaylorSwift.app/smallPauseButton.png smallPauseButton.png282632015#282632015#0(0"0(0#0#48"/Users/sue/iDev/TaylorSwift/smallPauseButton.png4300885448#613"    cd /Users/sue/iDev/TaylorSwift    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/sue/iDev/TaylorSwift/smallPauseButton.png /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/smallPauseButton.png0#
+
+CCopyPNGFile /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/smallPlayButton.png smallPlayButton.png
+s282632015.809667
+e282632015.839818
+r1
+xCopyPNGFile
+x/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/smallPlayButton.png
+xsmallPlayButton.png
+lSLF07#2@88"CopyPNGFile build/Debug-iphoneos/TaylorSwift.app/smallPlayButton.png smallPlayButton.png282632015#282632015#0(0"0(0#0#47"/Users/sue/iDev/TaylorSwift/smallPlayButton.png4300885448#611"    cd /Users/sue/iDev/TaylorSwift    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/sue/iDev/TaylorSwift/smallPlayButton.png /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/smallPlayButton.png0#
+
+CCopyPNGFile /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/smallStopButton.png smallStopButton.png
+s282632015.869310
+e282632015.899698
+r1
+xCopyPNGFile
+x/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/smallStopButton.png
+xsmallStopButton.png
+lSLF07#2@88"CopyPNGFile build/Debug-iphoneos/TaylorSwift.app/smallStopButton.png smallStopButton.png282632015#282632015#0(0"0(0#0#47"/Users/sue/iDev/TaylorSwift/smallStopButton.png4300885448#611"    cd /Users/sue/iDev/TaylorSwift    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/sue/iDev/TaylorSwift/smallStopButton.png /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/smallStopButton.png0#
+
+CCopyPNGFile /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/stopButton.png stopButton.png
+r0
 
 CCopyPNGFile /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/taylorswift.png taylorswift.png
 r0
 
 CCpResource build/Debug-iphoneos/TaylorSwift.app/APerfectlyGoodHeart.html APerfectlyGoodHeart.html
-s282443947.695520
-e282443947.706769
+s282632015.113213
+e282632015.125387
 r1
 xCpResource
 xbuild/Debug-iphoneos/TaylorSwift.app/APerfectlyGoodHeart.html
 xAPerfectlyGoodHeart.html
-lSLF07#2@29"Copy APerfectlyGoodHeart.html282443947#282443947#0(0"0(0#0#52"/Users/sue/iDev/TaylorSwift/APerfectlyGoodHeart.html4300885448#487"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/APerfectlyGoodHeart.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
+lSLF07#2@29"Copy APerfectlyGoodHeart.html282632015#282632015#0(0"0(0#0#52"/Users/sue/iDev/TaylorSwift/APerfectlyGoodHeart.html4300885448#487"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/APerfectlyGoodHeart.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
 
 CCpResource build/Debug-iphoneos/TaylorSwift.app/APlaceInThisWorld.html APlaceInThisWorld.html
-s282443947.689506
-e282443947.706540
+s282632015.107213
+e282632015.125169
 r1
 xCpResource
 xbuild/Debug-iphoneos/TaylorSwift.app/APlaceInThisWorld.html
 xAPlaceInThisWorld.html
-lSLF07#2@27"Copy APlaceInThisWorld.html282443947#282443947#0(0"0(0#0#50"/Users/sue/iDev/TaylorSwift/APlaceInThisWorld.html4300885448#485"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/APlaceInThisWorld.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
+lSLF07#2@27"Copy APlaceInThisWorld.html282632015#282632015#0(0"0(0#0#50"/Users/sue/iDev/TaylorSwift/APlaceInThisWorld.html4300885448#485"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/APlaceInThisWorld.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
 
 CCpResource build/Debug-iphoneos/TaylorSwift.app/Breathe.html Breathe.html
-s282443947.722643
-e282443947.744206
+s282632015.140802
+e282632015.162198
 r1
 xCpResource
 xbuild/Debug-iphoneos/TaylorSwift.app/Breathe.html
 xBreathe.html
-lSLF07#2@17"Copy Breathe.html282443947#282443947#0(0"0(0#0#40"/Users/sue/iDev/TaylorSwift/Breathe.html4300885448#475"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/Breathe.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
+lSLF07#2@17"Copy Breathe.html282632015#282632015#0(0"0(0#0#40"/Users/sue/iDev/TaylorSwift/Breathe.html4300885448#475"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/Breathe.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
 
 CCpResource build/Debug-iphoneos/TaylorSwift.app/Change.html Change.html
-s282443947.725795
-e282443947.743508
+s282632015.144319
+e282632015.163316
 r1
 xCpResource
 xbuild/Debug-iphoneos/TaylorSwift.app/Change.html
 xChange.html
-lSLF07#2@16"Copy Change.html282443947#282443947#0(0"0(0#0#39"/Users/sue/iDev/TaylorSwift/Change.html4300885448#474"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/Change.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
+lSLF07#2@16"Copy Change.html282632015#282632015#0(0"0(0#0#39"/Users/sue/iDev/TaylorSwift/Change.html4300885448#474"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/Change.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
 
 CCpResource build/Debug-iphoneos/TaylorSwift.app/ColdAsYou.html ColdAsYou.html
-s282443947.694400
-e282443947.706655
+s282632015.108632
+e282632015.125278
 r1
 xCpResource
 xbuild/Debug-iphoneos/TaylorSwift.app/ColdAsYou.html
 xColdAsYou.html
-lSLF07#2@19"Copy ColdAsYou.html282443947#282443947#0(0"0(0#0#42"/Users/sue/iDev/TaylorSwift/ColdAsYou.html4300885448#477"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/ColdAsYou.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
+lSLF07#2@19"Copy ColdAsYou.html282632015#282632015#0(0"0(0#0#42"/Users/sue/iDev/TaylorSwift/ColdAsYou.html4300885448#477"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/ColdAsYou.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
 
 CCpResource build/Debug-iphoneos/TaylorSwift.app/ComeInWithTheRain.html ComeInWithTheRain.html
-s282446799.570717
-e282446799.578982
+s282632015.148332
+e282632015.161743
 r1
 xCpResource
 xbuild/Debug-iphoneos/TaylorSwift.app/ComeInWithTheRain.html
 xComeInWithTheRain.html
-lSLF07#2@27"Copy ComeInWithTheRain.html282446799#282446799#0(0"0(0#0#50"/Users/sue/iDev/TaylorSwift/ComeInWithTheRain.html4300885448#485"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/ComeInWithTheRain.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
+lSLF07#2@27"Copy ComeInWithTheRain.html282632015#282632015#0(0"0(0#0#50"/Users/sue/iDev/TaylorSwift/ComeInWithTheRain.html4300885448#485"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/ComeInWithTheRain.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
 
 CCpResource build/Debug-iphoneos/TaylorSwift.app/Fearless.html Fearless.html
-s282443947.731119
-e282443947.743750
+s282632015.149728
+e282632015.161866
 r1
 xCpResource
 xbuild/Debug-iphoneos/TaylorSwift.app/Fearless.html
 xFearless.html
-lSLF07#2@18"Copy Fearless.html282443947#282443947#0(0"0(0#0#41"/Users/sue/iDev/TaylorSwift/Fearless.html4300885448#476"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/Fearless.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
+lSLF07#2@18"Copy Fearless.html282632015#282632015#0(0"0(0#0#41"/Users/sue/iDev/TaylorSwift/Fearless.html4300885448#476"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/Fearless.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
 
 CCpResource build/Debug-iphoneos/TaylorSwift.app/Fifteen.html Fifteen.html
-s282443947.735231
-e282443947.743863
+s282632015.151422
+e282632015.161976
 r1
 xCpResource
 xbuild/Debug-iphoneos/TaylorSwift.app/Fifteen.html
 xFifteen.html
-lSLF07#2@17"Copy Fifteen.html282443947#282443947#0(0"0(0#0#40"/Users/sue/iDev/TaylorSwift/Fifteen.html4300885448#475"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/Fifteen.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
+lSLF07#2@17"Copy Fifteen.html282632015#282632015#0(0"0(0#0#40"/Users/sue/iDev/TaylorSwift/Fifteen.html4300885448#475"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/Fifteen.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
 
 CCpResource build/Debug-iphoneos/TaylorSwift.app/Forever&Always.html Forever&Always.html
-s282443947.739024
-e282443947.800152
+s282632015.156476
+e282632015.181248
 r1
 xCpResource
 xbuild/Debug-iphoneos/TaylorSwift.app/Forever&Always.html
 xForever&Always.html
-lSLF07#2@24"Copy Forever&Always.html282443947#282443947#0(0"0(0#0#47"/Users/sue/iDev/TaylorSwift/Forever&Always.html4300885448#482"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/Forever&Always.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
+lSLF07#2@24"Copy Forever&Always.html282632015#282632015#0(0"0(0#0#47"/Users/sue/iDev/TaylorSwift/Forever&Always.html4300885448#482"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/Forever&Always.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
 
 CCpResource build/Debug-iphoneos/TaylorSwift.app/Forever&AlwaysPianoVersion.html Forever&AlwaysPianoVersion.html
-s282443947.740190
-e282443947.800382
+s282632015.158304
+e282632015.181363
 r1
 xCpResource
 xbuild/Debug-iphoneos/TaylorSwift.app/Forever&AlwaysPianoVersion.html
 xForever&AlwaysPianoVersion.html
-lSLF07#2@36"Copy Forever&AlwaysPianoVersion.html282443947#282443947#0(0"0(0#0#59"/Users/sue/iDev/TaylorSwift/Forever&AlwaysPianoVersion.html4300885448#494"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/Forever&AlwaysPianoVersion.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
+lSLF07#2@36"Copy Forever&AlwaysPianoVersion.html282632015#282632015#0(0"0(0#0#59"/Users/sue/iDev/TaylorSwift/Forever&AlwaysPianoVersion.html4300885448#494"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/Forever&AlwaysPianoVersion.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
 
 CCpResource build/Debug-iphoneos/TaylorSwift.app/HeyStephen.html HeyStephen.html
-s282443947.744277
-e282443947.798779
+s282632015.160314
+e282632015.181586
 r1
 xCpResource
 xbuild/Debug-iphoneos/TaylorSwift.app/HeyStephen.html
 xHeyStephen.html
-lSLF07#2@20"Copy HeyStephen.html282443947#282443947#0(0"0(0#0#43"/Users/sue/iDev/TaylorSwift/HeyStephen.html4300885448#478"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/HeyStephen.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
+lSLF07#2@20"Copy HeyStephen.html282632015#282632015#0(0"0(0#0#43"/Users/sue/iDev/TaylorSwift/HeyStephen.html4300885448#478"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/HeyStephen.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
 
 CCpResource build/Debug-iphoneos/TaylorSwift.app/ImOnlyMeWhenImWithYou.html ImOnlyMeWhenImWithYou.html
-s282443947.699503
-e282443947.725614
+s282632015.114913
+e282632015.125500
 r1
 xCpResource
 xbuild/Debug-iphoneos/TaylorSwift.app/ImOnlyMeWhenImWithYou.html
 xImOnlyMeWhenImWithYou.html
-lSLF07#2@31"Copy ImOnlyMeWhenImWithYou.html282443947#282443947#0(0"0(0#0#54"/Users/sue/iDev/TaylorSwift/ImOnlyMeWhenImWithYou.html4300885448#489"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/ImOnlyMeWhenImWithYou.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
+lSLF07#2@31"Copy ImOnlyMeWhenImWithYou.html282632015#282632015#0(0"0(0#0#54"/Users/sue/iDev/TaylorSwift/ImOnlyMeWhenImWithYou.html4300885448#489"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/ImOnlyMeWhenImWithYou.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
 
 CCpResource build/Debug-iphoneos/TaylorSwift.app/Invisible.html Invisible.html
-s282443947.701222
-e282443947.725728
+s282632015.123140
+e282632015.148261
 r1
 xCpResource
 xbuild/Debug-iphoneos/TaylorSwift.app/Invisible.html
 xInvisible.html
-lSLF07#2@19"Copy Invisible.html282443947#282443947#0(0"0(0#0#42"/Users/sue/iDev/TaylorSwift/Invisible.html4300885448#477"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/Invisible.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
+lSLF07#2@19"Copy Invisible.html282632015#282632015#0(0"0(0#0#42"/Users/sue/iDev/TaylorSwift/Invisible.html4300885448#477"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/Invisible.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
 
 CCpResource build/Debug-iphoneos/TaylorSwift.app/JumpThenFall.html JumpThenFall.html
-s282443947.746296
-e282443947.799015
+s282632015.163387
+e282632015.180890
 r1
 xCpResource
 xbuild/Debug-iphoneos/TaylorSwift.app/JumpThenFall.html
 xJumpThenFall.html
-lSLF07#2@22"Copy JumpThenFall.html282443947#282443947#0(0"0(0#0#45"/Users/sue/iDev/TaylorSwift/JumpThenFall.html4300885448#480"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/JumpThenFall.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
+lSLF07#2@22"Copy JumpThenFall.html282632015#282632015#0(0"0(0#0#45"/Users/sue/iDev/TaylorSwift/JumpThenFall.html4300885448#480"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/JumpThenFall.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
 
 CCpResource build/Debug-iphoneos/TaylorSwift.app/LoveStory.html LoveStory.html
-s282443947.749055
-e282443947.799242
+s282632015.166235
+e282632015.181016
 r1
 xCpResource
 xbuild/Debug-iphoneos/TaylorSwift.app/LoveStory.html
 xLoveStory.html
-lSLF07#2@19"Copy LoveStory.html282443947#282443947#0(0"0(0#0#42"/Users/sue/iDev/TaylorSwift/LoveStory.html4300885448#477"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/LoveStory.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
+lSLF07#2@19"Copy LoveStory.html282632015#282632015#0(0"0(0#0#42"/Users/sue/iDev/TaylorSwift/LoveStory.html4300885448#477"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/LoveStory.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
 
 CCpResource build/Debug-iphoneos/TaylorSwift.app/MarysSong.html MarysSong.html
-s282443947.706847
-e282443947.725094
+s282632015.125569
+e282632015.147675
 r1
 xCpResource
 xbuild/Debug-iphoneos/TaylorSwift.app/MarysSong.html
 xMarysSong.html
-lSLF07#2@19"Copy MarysSong.html282443947#282443947#0(0"0(0#0#42"/Users/sue/iDev/TaylorSwift/MarysSong.html4300885448#477"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/MarysSong.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
+lSLF07#2@19"Copy MarysSong.html282632015#282632015#0(0"0(0#0#42"/Users/sue/iDev/TaylorSwift/MarysSong.html4300885448#477"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/MarysSong.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
 
 CCpResource build/Debug-iphoneos/TaylorSwift.app/OurSong.html OurSong.html
-s282443947.709977
-e282443947.725224
+s282632015.129970
+e282632015.147807
 r1
 xCpResource
 xbuild/Debug-iphoneos/TaylorSwift.app/OurSong.html
 xOurSong.html
-lSLF07#2@17"Copy OurSong.html282443947#282443947#0(0"0(0#0#40"/Users/sue/iDev/TaylorSwift/OurSong.html4300885448#475"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/OurSong.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
+lSLF07#2@17"Copy OurSong.html282632015#282632015#0(0"0(0#0#40"/Users/sue/iDev/TaylorSwift/OurSong.html4300885448#475"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/OurSong.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
 
 CCpResource build/Debug-iphoneos/TaylorSwift.app/PictureToBurn.html PictureToBurn.html
-s282443947.682732
-e282443947.706192
+s282632015.092636
+e282632015.124837
 r1
 xCpResource
 xbuild/Debug-iphoneos/TaylorSwift.app/PictureToBurn.html
 xPictureToBurn.html
-lSLF07#2@23"Copy PictureToBurn.html282443947#282443947#0(0"0(0#0#46"/Users/sue/iDev/TaylorSwift/PictureToBurn.html4300885448#481"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/PictureToBurn.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
+lSLF07#2@23"Copy PictureToBurn.html282632015#282632015#0(0"0(0#0#46"/Users/sue/iDev/TaylorSwift/PictureToBurn.html4300885448#481"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/PictureToBurn.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
 
 CCpResource build/Debug-iphoneos/TaylorSwift.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
-s282443947.050956
-e282443947.058961
+s282632014.473416
+e282632014.485382
 r1
 xCpResource
 xbuild/Debug-iphoneos/TaylorSwift.app/ResourceRules.plist
 x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
-lSLF07#2@96"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist282443947#282443947#0(0"0(0#0#91"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist4300885448#526"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
+lSLF07#2@96"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist282632014#282632014#0(0"0(0#0#91"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist4300885448#526"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
 
 CCpResource build/Debug-iphoneos/TaylorSwift.app/ShouldveSaidNo.html ShouldveSaidNo.html
-s282443947.711596
-e282443947.725340
+s282632015.131086
+e282632015.147924
 r1
 xCpResource
 xbuild/Debug-iphoneos/TaylorSwift.app/ShouldveSaidNo.html
 xShouldveSaidNo.html
-lSLF07#2@24"Copy ShouldveSaidNo.html282443947#282443947#0(0"0(0#0#47"/Users/sue/iDev/TaylorSwift/ShouldveSaidNo.html4300885448#482"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/ShouldveSaidNo.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
+lSLF07#2@24"Copy ShouldveSaidNo.html282632015#282632015#0(0"0(0#0#47"/Users/sue/iDev/TaylorSwift/ShouldveSaidNo.html4300885448#482"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/ShouldveSaidNo.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
 
 CCpResource build/Debug-iphoneos/TaylorSwift.app/StayBeautiful.html StayBeautiful.html
-s282443947.715811
-e282443947.725461
+s282632015.134894
+e282632015.148034
 r1
 xCpResource
 xbuild/Debug-iphoneos/TaylorSwift.app/StayBeautiful.html
 xStayBeautiful.html
-lSLF07#2@23"Copy StayBeautiful.html282443947#282443947#0(0"0(0#0#46"/Users/sue/iDev/TaylorSwift/StayBeautiful.html4300885448#481"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/StayBeautiful.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
+lSLF07#2@23"Copy StayBeautiful.html282632015#282632015#0(0"0(0#0#46"/Users/sue/iDev/TaylorSwift/StayBeautiful.html4300885448#481"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/StayBeautiful.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
 
 CCpResource build/Debug-iphoneos/TaylorSwift.app/SuperStar.html SuperStar.html
 s282443947.755132
@@ -977,157 +1152,166 @@ xbuild/Debug-iphoneos/TaylorSwift.app/SuperStar.html
 xSuperStar.html
 lSLF07#2@19"Copy SuperStar.html282443947#282443947#0(0"0(0#0#42"/Users/sue/iDev/TaylorSwift/SuperStar.html4300885448#477"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/SuperStar.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
 
+CCpResource build/Debug-iphoneos/TaylorSwift.app/Superstar.html Superstar.html
+s282632015.170907
+e282632015.181135
+r1
+xCpResource
+xbuild/Debug-iphoneos/TaylorSwift.app/Superstar.html
+xSuperstar.html
+lSLF07#2@19"Copy Superstar.html282632015#282632015#0(0"0(0#0#42"/Users/sue/iDev/TaylorSwift/Superstar.html4300885448#477"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/Superstar.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
+
 CCpResource build/Debug-iphoneos/TaylorSwift.app/TeardropsOnMyGuitar.html TeardropsOnMyGuitar.html
-s282443947.688178
-e282443947.706422
+s282632015.098861
+e282632015.125058
 r1
 xCpResource
 xbuild/Debug-iphoneos/TaylorSwift.app/TeardropsOnMyGuitar.html
 xTeardropsOnMyGuitar.html
-lSLF07#2@29"Copy TeardropsOnMyGuitar.html282443947#282443947#0(0"0(0#0#52"/Users/sue/iDev/TaylorSwift/TeardropsOnMyGuitar.html4300885448#487"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/TeardropsOnMyGuitar.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
+lSLF07#2@29"Copy TeardropsOnMyGuitar.html282632015#282632015#0(0"0(0#0#52"/Users/sue/iDev/TaylorSwift/TeardropsOnMyGuitar.html4300885448#487"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/TeardropsOnMyGuitar.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
 
 CCpResource build/Debug-iphoneos/TaylorSwift.app/TellMeWhy.html TellMeWhy.html
-s282443947.761349
-e282443947.799701
+s282632015.172633
+e282632015.181476
 r1
 xCpResource
 xbuild/Debug-iphoneos/TaylorSwift.app/TellMeWhy.html
 xTellMeWhy.html
-lSLF07#2@19"Copy TellMeWhy.html282443947#282443947#0(0"0(0#0#42"/Users/sue/iDev/TaylorSwift/TellMeWhy.html4300885448#477"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/TellMeWhy.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
+lSLF07#2@19"Copy TellMeWhy.html282632015#282632015#0(0"0(0#0#42"/Users/sue/iDev/TaylorSwift/TellMeWhy.html4300885448#477"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/TellMeWhy.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
 
 CCpResource build/Debug-iphoneos/TaylorSwift.app/TheBestDay.html TheBestDay.html
-s282443947.792318
-e282443947.799926
+s282632015.174555
+e282632015.193039
 r1
 xCpResource
 xbuild/Debug-iphoneos/TaylorSwift.app/TheBestDay.html
 xTheBestDay.html
-lSLF07#2@20"Copy TheBestDay.html282443947#282443947#0(0"0(0#0#43"/Users/sue/iDev/TaylorSwift/TheBestDay.html4300885448#478"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/TheBestDay.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
+lSLF07#2@20"Copy TheBestDay.html282632015#282632015#0(0"0(0#0#43"/Users/sue/iDev/TaylorSwift/TheBestDay.html4300885448#478"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/TheBestDay.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
 
 CCpResource build/Debug-iphoneos/TaylorSwift.app/TheOtherSideOfTheDoor.html TheOtherSideOfTheDoor.html
-s282443947.797756
-e282443947.821447
+s282632015.179069
+e282632015.193165
 r1
 xCpResource
 xbuild/Debug-iphoneos/TaylorSwift.app/TheOtherSideOfTheDoor.html
 xTheOtherSideOfTheDoor.html
-lSLF07#2@31"Copy TheOtherSideOfTheDoor.html282443947#282443947#0(0"0(0#0#54"/Users/sue/iDev/TaylorSwift/TheOtherSideOfTheDoor.html4300885448#489"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/TheOtherSideOfTheDoor.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
+lSLF07#2@31"Copy TheOtherSideOfTheDoor.html282632015#282632015#0(0"0(0#0#54"/Users/sue/iDev/TaylorSwift/TheOtherSideOfTheDoor.html4300885448#489"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/TheOtherSideOfTheDoor.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
 
 CCpResource build/Debug-iphoneos/TaylorSwift.app/TheOutside.html TheOutside.html
-s282443947.717539
-e282443947.743977
+s282632015.135824
+e282632015.148146
 r1
 xCpResource
 xbuild/Debug-iphoneos/TaylorSwift.app/TheOutside.html
 xTheOutside.html
-lSLF07#2@20"Copy TheOutside.html282443947#282443947#0(0"0(0#0#43"/Users/sue/iDev/TaylorSwift/TheOutside.html4300885448#478"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/TheOutside.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
+lSLF07#2@20"Copy TheOutside.html282632015#282632015#0(0"0(0#0#43"/Users/sue/iDev/TaylorSwift/TheOutside.html4300885448#478"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/TheOutside.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
 
 CCpResource build/Debug-iphoneos/TaylorSwift.app/TheWayILovedYou.html TheWayILovedYou.html
-s282443947.800452
-e282443947.820752
+s282632015.181654
+e282632015.197763
 r1
 xCpResource
 xbuild/Debug-iphoneos/TaylorSwift.app/TheWayILovedYou.html
 xTheWayILovedYou.html
-lSLF07#2@25"Copy TheWayILovedYou.html282443947#282443947#0(0"0(0#0#48"/Users/sue/iDev/TaylorSwift/TheWayILovedYou.html4300885448#483"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/TheWayILovedYou.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
+lSLF07#2@25"Copy TheWayILovedYou.html282632015#282632015#0(0"0(0#0#48"/Users/sue/iDev/TaylorSwift/TheWayILovedYou.html4300885448#483"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/TheWayILovedYou.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
 
 CCpResource build/Debug-iphoneos/TaylorSwift.app/TiedTogetherWithASmile.html TiedTogetherWithASmile.html
-s282443947.721394
-e282443947.744089
+s282632015.139586
+e282632015.162090
 r1
 xCpResource
 xbuild/Debug-iphoneos/TaylorSwift.app/TiedTogetherWithASmile.html
 xTiedTogetherWithASmile.html
-lSLF07#2@32"Copy TiedTogetherWithASmile.html282443947#282443947#0(0"0(0#0#55"/Users/sue/iDev/TaylorSwift/TiedTogetherWithASmile.html4300885448#490"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/TiedTogetherWithASmile.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
+lSLF07#2@32"Copy TiedTogetherWithASmile.html282632015#282632015#0(0"0(0#0#55"/Users/sue/iDev/TaylorSwift/TiedTogetherWithASmile.html4300885448#490"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/TiedTogetherWithASmile.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
 
 CCpResource build/Debug-iphoneos/TaylorSwift.app/TimMcGraw.html TimMcGraw.html
-s282443947.681434
-e282443947.706057
+s282632015.091916
+e282632015.124713
 r1
 xCpResource
 xbuild/Debug-iphoneos/TaylorSwift.app/TimMcGraw.html
 xTimMcGraw.html
-lSLF07#2@19"Copy TimMcGraw.html282443947#282443947#0(0"0(0#0#42"/Users/sue/iDev/TaylorSwift/TimMcGraw.html4300885448#477"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/TimMcGraw.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
+lSLF07#2@19"Copy TimMcGraw.html282632015#282632015#0(0"0(0#0#42"/Users/sue/iDev/TaylorSwift/TimMcGraw.html4300885448#477"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/TimMcGraw.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
 
 CCpResource build/Debug-iphoneos/TaylorSwift.app/Untouchable.html Untouchable.html
-s282443947.803389
-e282443947.820989
+s282632015.185057
+e282632015.197913
 r1
 xCpResource
 xbuild/Debug-iphoneos/TaylorSwift.app/Untouchable.html
 xUntouchable.html
-lSLF07#2@21"Copy Untouchable.html282443947#282443947#0(0"0(0#0#44"/Users/sue/iDev/TaylorSwift/Untouchable.html4300885448#479"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/Untouchable.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
+lSLF07#2@21"Copy Untouchable.html282632015#282632015#0(0"0(0#0#44"/Users/sue/iDev/TaylorSwift/Untouchable.html4300885448#479"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/Untouchable.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
 
 CCpResource build/Debug-iphoneos/TaylorSwift.app/WhiteHorse.html WhiteHorse.html
-s282443947.808906
-e282443947.821215
+s282632015.187713
+e282632015.198028
 r1
 xCpResource
 xbuild/Debug-iphoneos/TaylorSwift.app/WhiteHorse.html
 xWhiteHorse.html
-lSLF07#2@20"Copy WhiteHorse.html282443947#282443947#0(0"0(0#0#43"/Users/sue/iDev/TaylorSwift/WhiteHorse.html4300885448#478"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/WhiteHorse.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
+lSLF07#2@20"Copy WhiteHorse.html282632015#282632015#0(0"0(0#0#43"/Users/sue/iDev/TaylorSwift/WhiteHorse.html4300885448#478"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/WhiteHorse.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
 
 CCpResource build/Debug-iphoneos/TaylorSwift.app/YouBelongWithMe.html YouBelongWithMe.html
-s282448047.612353
-e282448047.619433
+s282632015.369184
+e282632015.378510
 r1
 xCpResource
 xbuild/Debug-iphoneos/TaylorSwift.app/YouBelongWithMe.html
 xYouBelongWithMe.html
-lSLF07#2@25"Copy YouBelongWithMe.html282448047#282448047#0(0"0(0#0#48"/Users/sue/iDev/TaylorSwift/YouBelongWithMe.html4300885448#483"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/YouBelongWithMe.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
+lSLF07#2@25"Copy YouBelongWithMe.html282632015#282632015#0(0"0(0#0#48"/Users/sue/iDev/TaylorSwift/YouBelongWithMe.html4300885448#483"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/YouBelongWithMe.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
 
 CCpResource build/Debug-iphoneos/TaylorSwift.app/YoureNotSorry.html YoureNotSorry.html
-s282443947.819486
-e282443947.826022
+s282632015.189441
+e282632015.200000
 r1
 xCpResource
 xbuild/Debug-iphoneos/TaylorSwift.app/YoureNotSorry.html
 xYoureNotSorry.html
-lSLF07#2@23"Copy YoureNotSorry.html282443947#282443947#0(0"0(0#0#46"/Users/sue/iDev/TaylorSwift/YoureNotSorry.html4300885448#481"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/YoureNotSorry.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
+lSLF07#2@23"Copy YoureNotSorry.html282632015#282632015#0(0"0(0#0#46"/Users/sue/iDev/TaylorSwift/YoureNotSorry.html4300885448#481"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/YoureNotSorry.html /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
 
 CCpResource build/Debug-iphoneos/TaylorSwift.app/songStyles.css songStyles.css
-s282443947.683514
-e282443947.706307
+s282632015.097343
+e282632015.124946
 r1
 xCpResource
 xbuild/Debug-iphoneos/TaylorSwift.app/songStyles.css
 xsongStyles.css
-lSLF07#2@19"Copy songStyles.css282443947#282443947#0(0"0(0#0#42"/Users/sue/iDev/TaylorSwift/songStyles.css4300885448#477"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/songStyles.css /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
+lSLF07#2@19"Copy songStyles.css282632015#282632015#0(0"0(0#0#42"/Users/sue/iDev/TaylorSwift/songStyles.css4300885448#477"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/iDev/TaylorSwift/songStyles.css /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
 
 CCpResource build/Debug-iphoneos/TaylorSwift.app/taylorswift.jpg taylorswift.jpg
 r0
 
 CGenerateDSYMFile /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app.dSYM /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/TaylorSwift
-s282529549.086946
-e282529549.125287
+s282633448.960787
+e282633448.990475
 r1
 xGenerateDSYMFile
 x/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app.dSYM
 x/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/TaylorSwift
-lSLF07#2@107"GenerateDSYMFile build/Debug-iphoneos/TaylorSwift.app.dSYM build/Debug-iphoneos/TaylorSwift.app/TaylorSwift282529549#282529549#0(0"0(0#0#76"/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/TaylorSwift4300885448#403"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/TaylorSwift -o /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app.dSYM0#
+lSLF07#2@107"GenerateDSYMFile build/Debug-iphoneos/TaylorSwift.app.dSYM build/Debug-iphoneos/TaylorSwift.app/TaylorSwift282633448#282633448#0(0"0(0#0#76"/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/TaylorSwift4300885448#403"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/TaylorSwift -o /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app.dSYM0#
 
 CLd /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/TaylorSwift normal armv6
-s282529548.954582
-e282529549.086842
+s282633448.920665
+e282633448.960690
 r1
 xLd
 x/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/TaylorSwift
 xnormal
 xarmv6
-lSLF07#2@81"Link /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/TaylorSwift282529548#282529549#0(0"0(0#0#0"4300885448#945"    cd /Users/sue/iDev/TaylorSwift    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.2    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -L/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos -F/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos -filelist /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/Objects-normal/armv6/TaylorSwift.LinkFileList -mmacosx-version-min=10.5 -dead_strip -miphoneos-version-min=3.1.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework MediaPlayer -o /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/TaylorSwift0#
+lSLF07#2@81"Link /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/TaylorSwift282633448#282633448#0(0"0(0#0#0"4300885448#945"    cd /Users/sue/iDev/TaylorSwift    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.2    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -L/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos -F/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos -filelist /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/Objects-normal/armv6/TaylorSwift.LinkFileList -mmacosx-version-min=10.5 -dead_strip -miphoneos-version-min=3.1.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework MediaPlayer -o /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/TaylorSwift0#
 
 CProcessInfoPlistFile /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/Info.plist TaylorSwift-Info.plist
-s282443947.053056
-e282443947.062879
+s282632014.474483
+e282632014.483911
 r1
 xProcessInfoPlistFile
 x/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/Info.plist
 xTaylorSwift-Info.plist
-lSLF07#2@30"Process TaylorSwift-Info.plist282443947#282443947#0(0"0(0#0#50"/Users/sue/iDev/TaylorSwift/TaylorSwift-Info.plist4300885448#596"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility TaylorSwift-Info.plist -genpkginfo /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/ResourceRules.plist -o /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/Info.plist0#
+lSLF07#2@30"Process TaylorSwift-Info.plist282632014#282632014#0(0"0(0#0#50"/Users/sue/iDev/TaylorSwift/TaylorSwift-Info.plist4300885448#596"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility TaylorSwift-Info.plist -genpkginfo /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/ResourceRules.plist -o /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/Info.plist0#
 
 CProcessPCH /var/folders/lk/lk6jBUK1EtmBa5R34Rl9U++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaylorSwift_Prefix-btpmnetjwdsyqifjfdxhflkmcmpp/TaylorSwift_Prefix.pch.gch TaylorSwift_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-s282443947.999324
-e282443949.199875
+s282632016.132340
+e282632016.676942
 r1
 xProcessPCH
 x/var/folders/lk/lk6jBUK1EtmBa5R34Rl9U++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaylorSwift_Prefix-btpmnetjwdsyqifjfdxhflkmcmpp/TaylorSwift_Prefix.pch.gch
@@ -1136,31 +1320,31 @@ xnormal
 xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@33"Precompile TaylorSwift_Prefix.pch282443947#282443949#0(0"0(0#0#50"/Users/sue/iDev/TaylorSwift/TaylorSwift_Prefix.pch4300885448#1654"    cd /Users/sue/iDev/TaylorSwift    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift-generated-files.hmap -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift-own-target-headers.hmap -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift-all-target-headers.hmap -iquote /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift-project-headers.hmap -F/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos -I/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/include -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/DerivedSources/armv6 -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/DerivedSources -c /Users/sue/iDev/TaylorSwift/TaylorSwift_Prefix.pch -o /var/folders/lk/lk6jBUK1EtmBa5R34Rl9U++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaylorSwift_Prefix-btpmnetjwdsyqifjfdxhflkmcmpp/TaylorSwift_Prefix.pch.gch0#
+lSLF07#2@33"Precompile TaylorSwift_Prefix.pch282632016#282632016#0(0"0(0#0#50"/Users/sue/iDev/TaylorSwift/TaylorSwift_Prefix.pch4300885448#1654"    cd /Users/sue/iDev/TaylorSwift    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift-generated-files.hmap -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift-own-target-headers.hmap -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift-all-target-headers.hmap -iquote /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift-project-headers.hmap -F/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos -I/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/include -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/DerivedSources/armv6 -I/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/DerivedSources -c /Users/sue/iDev/TaylorSwift/TaylorSwift_Prefix.pch -o /var/folders/lk/lk6jBUK1EtmBa5R34Rl9U++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaylorSwift_Prefix-btpmnetjwdsyqifjfdxhflkmcmpp/TaylorSwift_Prefix.pch.gch0#
 
 CProcessProductPackaging "/Users/sue/Library/MobileDevice/Provisioning Profiles/0E6D64E6-D3EC-4C92-B0C8-2C400CEFCCF5.mobileprovision" /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/embedded.mobileprovision
-s282443949.666398
-e282443949.667612
+s282632017.075458
+e282632017.078675
 r1
 xProcessProductPackaging
 x/Users/sue/Library/MobileDevice/Provisioning Profiles/0E6D64E6-D3EC-4C92-B0C8-2C400CEFCCF5.mobileprovision
 x/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/embedded.mobileprovision
-lSLF07#2@194"ProcessProductPackaging "/Users/sue/Library/MobileDevice/Provisioning Profiles/0E6D64E6-D3EC-4C92-B0C8-2C400CEFCCF5.mobileprovision" build/Debug-iphoneos/TaylorSwift.app/embedded.mobileprovision282443949#282443949#0(0"0(0#0#89"/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/embedded.mobileprovision4300885448#465"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    <com.apple.tools.product-pkg-utility> "/Users/sue/Library/MobileDevice/Provisioning Profiles/0E6D64E6-D3EC-4C92-B0C8-2C400CEFCCF5.mobileprovision" -o /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/embedded.mobileprovision0#
+lSLF07#2@194"ProcessProductPackaging "/Users/sue/Library/MobileDevice/Provisioning Profiles/0E6D64E6-D3EC-4C92-B0C8-2C400CEFCCF5.mobileprovision" build/Debug-iphoneos/TaylorSwift.app/embedded.mobileprovision282632017#282632017#0(0"0(0#0#89"/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/embedded.mobileprovision4300885448#465"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    <com.apple.tools.product-pkg-utility> "/Users/sue/Library/MobileDevice/Provisioning Profiles/0E6D64E6-D3EC-4C92-B0C8-2C400CEFCCF5.mobileprovision" -o /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app/embedded.mobileprovision0#
 
 CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift.xcent
-s282443949.673042
-e282443949.686575
+s282632017.084148
+e282632017.085993
 r1
 xProcessProductPackaging
 x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist
 x/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift.xcent
-lSLF07#2@189"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift.xcent282443949#282443949#0(0"0(0#0#102"/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift.xcent4300885448#486"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift.xcent0#
+lSLF07#2@189"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift.xcent282632017#282632017#0(0"0(0#0#102"/Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift.xcent4300885448#486"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/sue/iDev/TaylorSwift/build/TaylorSwift.build/Debug-iphoneos/TaylorSwift.build/TaylorSwift.xcent0#
 
 CTouch /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app
-s282529549.125487
-e282529549.128318
+s282633448.990682
+e282633448.993490
 r1
 xTouch
 x/Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app
-lSLF07#2@70"Touch /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app282529549#282529549#0(0"0(0#0#0"4300885448#308"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
+lSLF07#2@70"Touch /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app282633448#282633448#0(0"0(0#0#0"4300885448#308"    cd /Users/sue/iDev/TaylorSwift    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/sue/iDev/TaylorSwift/build/Debug-iphoneos/TaylorSwift.app0#
 

@@ -22,8 +22,6 @@
 		801BC3D210D4686400DE7DD8 /* PictureToBurn.html in Resources */ = {isa = PBXBuildFile; fileRef = 801BC3D110D4686400DE7DD8 /* PictureToBurn.html */; };
 		801BC50510D57B0900DE7DD8 /* songStyles.css in Resources */ = {isa = PBXBuildFile; fileRef = 801BC50410D57B0900DE7DD8 /* songStyles.css */; };
 		804C251A10D713E0006D13AA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 804C251910D713E0006D13AA /* Default.png */; };
-		804C252510D7146B006D13AA /* splashView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 804C252410D7146B006D13AA /* splashView.xib */; };
-		804C252A10D715A1006D13AA /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 804C252910D715A1006D13AA /* SplashViewController.m */; };
 		805CDA1A10D4344600D0F1D7 /* TimMcGraw.html in Resources */ = {isa = PBXBuildFile; fileRef = 805CDA1910D4344600D0F1D7 /* TimMcGraw.html */; };
 		806F770810D5965E008FAF4F /* TeardropsOnMyGuitar.html in Resources */ = {isa = PBXBuildFile; fileRef = 806F770710D5965E008FAF4F /* TeardropsOnMyGuitar.html */; };
 		806F773C10D5994D008FAF4F /* APlaceInThisWorld.html in Resources */ = {isa = PBXBuildFile; fileRef = 806F773B10D5994D008FAF4F /* APlaceInThisWorld.html */; };
@@ -48,7 +46,7 @@
 		806F780D10D5B281008FAF4F /* HeyStephen.html in Resources */ = {isa = PBXBuildFile; fileRef = 806F77FB10D5B281008FAF4F /* HeyStephen.html */; };
 		806F780E10D5B281008FAF4F /* JumpThenFall.html in Resources */ = {isa = PBXBuildFile; fileRef = 806F77FC10D5B281008FAF4F /* JumpThenFall.html */; };
 		806F780F10D5B281008FAF4F /* LoveStory.html in Resources */ = {isa = PBXBuildFile; fileRef = 806F77FD10D5B281008FAF4F /* LoveStory.html */; };
-		806F781010D5B281008FAF4F /* SuperStar.html in Resources */ = {isa = PBXBuildFile; fileRef = 806F77FE10D5B281008FAF4F /* SuperStar.html */; };
+		806F781010D5B281008FAF4F /* Superstar.html in Resources */ = {isa = PBXBuildFile; fileRef = 806F77FE10D5B281008FAF4F /* Superstar.html */; };
 		806F781110D5B281008FAF4F /* TellMeWhy.html in Resources */ = {isa = PBXBuildFile; fileRef = 806F77FF10D5B281008FAF4F /* TellMeWhy.html */; };
 		806F781210D5B281008FAF4F /* TheBestDay.html in Resources */ = {isa = PBXBuildFile; fileRef = 806F780010D5B281008FAF4F /* TheBestDay.html */; };
 		806F781310D5B281008FAF4F /* TheOtherSideOfTheDoor.html in Resources */ = {isa = PBXBuildFile; fileRef = 806F780110D5B281008FAF4F /* TheOtherSideOfTheDoor.html */; };
@@ -58,6 +56,11 @@
 		806F781710D5B281008FAF4F /* YoureNotSorry.html in Resources */ = {isa = PBXBuildFile; fileRef = 806F780510D5B281008FAF4F /* YoureNotSorry.html */; };
 		806F78F210D5C541008FAF4F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 806F78F110D5C541008FAF4F /* icon.png */; };
 		806F798710D5D06D008FAF4F /* YouBelongWithMe.html in Resources */ = {isa = PBXBuildFile; fileRef = 806F798610D5D06D008FAF4F /* YouBelongWithMe.html */; };
+		80863CE810D87C5700EDBC58 /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80863CE610D87C5700EDBC58 /* SplashViewController.m */; };
+		80863CE910D87C5700EDBC58 /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80863CE710D87C5700EDBC58 /* SplashViewController.xib */; };
+		80863E1710D89BC800EDBC58 /* smallPlayButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 80863E1610D89BC800EDBC58 /* smallPlayButton.png */; };
+		80863E2410D89C5100EDBC58 /* smallPauseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 80863E2310D89C5100EDBC58 /* smallPauseButton.png */; };
+		80863E2610D89C5500EDBC58 /* smallStopButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 80863E2510D89C5500EDBC58 /* smallStopButton.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -83,9 +86,6 @@
 		801BC3D110D4686400DE7DD8 /* PictureToBurn.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = PictureToBurn.html; sourceTree = "<group>"; };
 		801BC50410D57B0900DE7DD8 /* songStyles.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = songStyles.css; sourceTree = "<group>"; };
 		804C251910D713E0006D13AA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		804C252410D7146B006D13AA /* splashView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = splashView.xib; sourceTree = "<group>"; };
-		804C252810D715A1006D13AA /* SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
-		804C252910D715A1006D13AA /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
 		805CDA1910D4344600D0F1D7 /* TimMcGraw.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = TimMcGraw.html; sourceTree = "<group>"; };
 		806F770710D5965E008FAF4F /* TeardropsOnMyGuitar.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = TeardropsOnMyGuitar.html; sourceTree = "<group>"; };
 		806F773B10D5994D008FAF4F /* APlaceInThisWorld.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = APlaceInThisWorld.html; sourceTree = "<group>"; };
@@ -110,7 +110,7 @@
 		806F77FB10D5B281008FAF4F /* HeyStephen.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = HeyStephen.html; sourceTree = "<group>"; };
 		806F77FC10D5B281008FAF4F /* JumpThenFall.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = JumpThenFall.html; sourceTree = "<group>"; };
 		806F77FD10D5B281008FAF4F /* LoveStory.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = LoveStory.html; sourceTree = "<group>"; };
-		806F77FE10D5B281008FAF4F /* SuperStar.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = SuperStar.html; sourceTree = "<group>"; };
+		806F77FE10D5B281008FAF4F /* Superstar.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Superstar.html; sourceTree = "<group>"; };
 		806F77FF10D5B281008FAF4F /* TellMeWhy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = TellMeWhy.html; sourceTree = "<group>"; };
 		806F780010D5B281008FAF4F /* TheBestDay.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = TheBestDay.html; sourceTree = "<group>"; };
 		806F780110D5B281008FAF4F /* TheOtherSideOfTheDoor.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = TheOtherSideOfTheDoor.html; sourceTree = "<group>"; };
@@ -120,6 +120,12 @@
 		806F780510D5B281008FAF4F /* YoureNotSorry.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = YoureNotSorry.html; sourceTree = "<group>"; };
 		806F78F110D5C541008FAF4F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		806F798610D5D06D008FAF4F /* YouBelongWithMe.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = YouBelongWithMe.html; sourceTree = "<group>"; };
+		80863CE510D87C5700EDBC58 /* SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
+		80863CE610D87C5700EDBC58 /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
+		80863CE710D87C5700EDBC58 /* SplashViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashViewController.xib; sourceTree = "<group>"; };
+		80863E1610D89BC800EDBC58 /* smallPlayButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smallPlayButton.png; sourceTree = "<group>"; };
+		80863E2310D89C5100EDBC58 /* smallPauseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smallPauseButton.png; sourceTree = "<group>"; };
+		80863E2510D89C5500EDBC58 /* smallStopButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smallStopButton.png; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* TaylorSwift-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TaylorSwift-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -190,7 +196,6 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
-				804C252410D7146B006D13AA /* splashView.xib */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -207,11 +212,15 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				80863E1610D89BC800EDBC58 /* smallPlayButton.png */,
+				80863E2510D89C5500EDBC58 /* smallStopButton.png */,
+				80863E2310D89C5100EDBC58 /* smallPauseButton.png */,
 				804C251910D713E0006D13AA /* Default.png */,
 				806F78F110D5C541008FAF4F /* icon.png */,
 				280E754A0DD40C5E005A515E /* FlipsideView.xib */,
 				280E754B0DD40C5E005A515E /* MainView.xib */,
 				280E754C0DD40C5E005A515E /* MainWindow.xib */,
+				80863CE710D87C5700EDBC58 /* SplashViewController.xib */,
 				8D1107310486CEB800E47090 /* TaylorSwift-Info.plist */,
 			);
 			name = Resources;
@@ -231,8 +240,8 @@
 		804C252710D7156C006D13AA /* Splash View */ = {
 			isa = PBXGroup;
 			children = (
-				804C252810D715A1006D13AA /* SplashViewController.h */,
-				804C252910D715A1006D13AA /* SplashViewController.m */,
+				80863CE510D87C5700EDBC58 /* SplashViewController.h */,
+				80863CE610D87C5700EDBC58 /* SplashViewController.m */,
 			);
 			name = "Splash View";
 			sourceTree = "<group>";
@@ -250,7 +259,7 @@
 				806F77FB10D5B281008FAF4F /* HeyStephen.html */,
 				806F77FC10D5B281008FAF4F /* JumpThenFall.html */,
 				806F77FD10D5B281008FAF4F /* LoveStory.html */,
-				806F77FE10D5B281008FAF4F /* SuperStar.html */,
+				806F77FE10D5B281008FAF4F /* Superstar.html */,
 				806F77FF10D5B281008FAF4F /* TellMeWhy.html */,
 				806F780010D5B281008FAF4F /* TheBestDay.html */,
 				806F780110D5B281008FAF4F /* TheOtherSideOfTheDoor.html */,
@@ -355,7 +364,7 @@
 				806F780D10D5B281008FAF4F /* HeyStephen.html in Resources */,
 				806F780E10D5B281008FAF4F /* JumpThenFall.html in Resources */,
 				806F780F10D5B281008FAF4F /* LoveStory.html in Resources */,
-				806F781010D5B281008FAF4F /* SuperStar.html in Resources */,
+				806F781010D5B281008FAF4F /* Superstar.html in Resources */,
 				806F781110D5B281008FAF4F /* TellMeWhy.html in Resources */,
 				806F781210D5B281008FAF4F /* TheBestDay.html in Resources */,
 				806F781310D5B281008FAF4F /* TheOtherSideOfTheDoor.html in Resources */,
@@ -366,7 +375,10 @@
 				806F78F210D5C541008FAF4F /* icon.png in Resources */,
 				806F798710D5D06D008FAF4F /* YouBelongWithMe.html in Resources */,
 				804C251A10D713E0006D13AA /* Default.png in Resources */,
-				804C252510D7146B006D13AA /* splashView.xib in Resources */,
+				80863CE910D87C5700EDBC58 /* SplashViewController.xib in Resources */,
+				80863E1710D89BC800EDBC58 /* smallPlayButton.png in Resources */,
+				80863E2410D89C5100EDBC58 /* smallPauseButton.png in Resources */,
+				80863E2610D89C5500EDBC58 /* smallStopButton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,7 +395,7 @@
 				289233A70DB2D0840083E9F9 /* MainView.m in Sources */,
 				289233AE0DB2D0DB0083E9F9 /* MainViewController.m in Sources */,
 				289233B00DB2D0DB0083E9F9 /* FlipsideViewController.m in Sources */,
-				804C252A10D715A1006D13AA /* SplashViewController.m in Sources */,
+				80863CE810D87C5700EDBC58 /* SplashViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

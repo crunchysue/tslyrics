@@ -8,7 +8,9 @@
 
 #import "FlipsideViewController.h"
 
-@interface MainViewController : UIViewController <FlipsideViewControllerDelegate, UITableViewDelegate, UITableViewDataSource> {
+@interface MainViewController : UIViewController <FlipsideViewControllerDelegate, 
+												  UITableViewDelegate, 
+												  UITableViewDataSource> {
 	
 	IBOutlet UITableView *songsTable;
 	NSString *curTitle;
@@ -21,7 +23,6 @@
 @property (nonatomic, retain) NSArray *songListFearless;
 @property (nonatomic, retain) NSArray *songListTaylorSwift;
 
-- (IBAction)showInfo;
-
+- (IBAction) showInfo;
 
 @end

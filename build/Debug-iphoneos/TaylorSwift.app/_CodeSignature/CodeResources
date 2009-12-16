@@ -28,6 +28,10 @@
 		<data>
 		TA89J/sgDSkOFjFQ5coFIeAuo6o=
 		</data>
+		<key>Default.png</key>
+		<data>
+		43nSHUiKKP4CkqgALDslfn/+v5w=
+		</data>
 		<key>Fearless.html</key>
 		<data>
 		dWCFPuHSkqNIIe/BP+VORD81VQA=
@@ -38,7 +42,7 @@
 		</data>
 		<key>FlipsideView.nib</key>
 		<data>
-		0WDw6MeeHt1Jj/e8s8Gmuhc9leU=
+		kII1WTAaQAy6gX/cz3tN0gSddNk=
 		</data>
 		<key>Forever&amp;Always.html</key>
 		<data>
@@ -74,7 +78,7 @@
 		</data>
 		<key>MainWindow.nib</key>
 		<data>
-		OJsUU0FuSEzSyuUM1HbjjjXbDGM=
+		RdV7/rLGQakoanuDCTDVOPXrqFI=
 		</data>
 		<key>MarysSong.html</key>
 		<data>
@@ -96,11 +100,15 @@
 		<data>
 		r8zRGUOdBuWHatPxweErMmE3wwM=
 		</data>
+		<key>SplashViewController.nib</key>
+		<data>
+		JluaVFebYgpFEb4kU9A5GrmkEp8=
+		</data>
 		<key>StayBeautiful.html</key>
 		<data>
 		UFjXgY3b8a8K+fvPQnPy2pvCKUU=
 		</data>
-		<key>SuperStar.html</key>
+		<key>Superstar.html</key>
 		<data>
 		yaeixSwzYzGHSB9rHvSoAp7w7Bo=
 		</data>
@@ -152,10 +160,6 @@
 		<data>
 		S5zvoGB+VaLU01BJ4aDtrTjPfEw=
 		</data>
-		<key>default.png</key>
-		<data>
-		3F2XrTMgb+QhTtQrNdVOHZS8Ndw=
-		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
 		eeH/r5HJVTjTyYfTO3bEyAijIf4=
@@ -163,6 +167,18 @@
 		<key>icon.png</key>
 		<data>
 		mpR/DEIzmyuvxUkbPSBKbzZh1Es=
+		</data>
+		<key>smallPauseButton.png</key>
+		<data>
+		MsPKQtmZukGaZ7mlMuT6Cui95WY=
+		</data>
+		<key>smallPlayButton.png</key>
+		<data>
+		dWF+exDaGixzh4fsp2ZuO0SU1W8=
+		</data>
+		<key>smallStopButton.png</key>
+		<data>
+		baAdNFETiSDjcKgkkyRk0oWwD7o=
 		</data>
 		<key>songStyles.css</key>
 		<data>

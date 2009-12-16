@@ -16,10 +16,7 @@
 @synthesize mainViewController;
 
 
-- (void)applicationDidFinishLaunching:(UIApplication *)application {
-	
-	sleep(10);
-	
+- (void)applicationDidFinishLaunching:(UIApplication *)application { 
     
 	MainViewController *aController = [[MainViewController alloc] initWithNibName:@"MainView" bundle:nil];
 	self.mainViewController = aController;

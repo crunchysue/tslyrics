@@ -2,14 +2,23 @@
 //  SplashViewController.m
 //  TaylorSwift
 //
-//  Created by Sue Brown on 12/14/09.
+//  Created by Sue Brown on 12/15/09.
 //  Copyright 2009 House of Crunchy. All rights reserved.
 //
 
 #import "SplashViewController.h"
 
 
+
 @implementation SplashViewController
+
+@synthesize delegate;
+
+- (IBAction) closeSplash {
+	[self.delegate splashViewControllerDidFinish:self];
+	NSLog(@"Closing splash");
+}
+
 
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
@@ -18,12 +27,6 @@
         // Custom initialization
     }
     return self;
-}
-*/
-
-/*
-// Implement loadView to create a view hierarchy programmatically, without using a nib.
-- (void)loadView {
 }
 */
 

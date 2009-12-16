@@ -6,14 +6,18 @@
 //  Copyright House of Crunchy 2009. All rights reserved.
 //
 
+#import "SplashViewController.h"
+#import <MediaPlayer/MediaPlayer.h>
+
 @protocol FlipsideViewControllerDelegate;
 
 
-@interface FlipsideViewController : UIViewController {
+@interface FlipsideViewController : UIViewController <SplashViewControllerDelegate> {
 	id <FlipsideViewControllerDelegate> delegate;
 	IBOutlet UIWebView *webView;
 	IBOutlet UINavigationItem *navItem;
 	IBOutlet UILabel *songTitleLabel;
+	IBOutlet UIButton *playPauseButton;
 	NSString *songTitle;
 }
 
@@ -21,11 +25,15 @@
 @property (nonatomic, retain) NSString *songTitle;
 @property (nonatomic, retain) UINavigationItem *navItem;
 @property (nonatomic, retain) UILabel *songTitleLabel;
+@property (nonatomic, retain) UIButton *playPauseButton;
 
 - (IBAction)done;
 - (void) loadURL;
 - (IBAction) playSong;
 - (IBAction) stopSong;
+- (IBAction) showSplashView;
+- (IBAction) handlePlayPauseTapped;
+- (void) updatePlayState;
 
 @end
 
