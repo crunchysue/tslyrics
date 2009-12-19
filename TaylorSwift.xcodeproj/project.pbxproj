@@ -61,6 +61,7 @@
 		80863E1710D89BC800EDBC58 /* smallPlayButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 80863E1610D89BC800EDBC58 /* smallPlayButton.png */; };
 		80863E2410D89C5100EDBC58 /* smallPauseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 80863E2310D89C5100EDBC58 /* smallPauseButton.png */; };
 		80863E2610D89C5500EDBC58 /* smallStopButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 80863E2510D89C5500EDBC58 /* smallStopButton.png */; };
+		80D88D3310DD48140095D9B3 /* caitlin-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 80D88D3210DD48140095D9B3 /* caitlin-button.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -126,6 +127,7 @@
 		80863E1610D89BC800EDBC58 /* smallPlayButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smallPlayButton.png; sourceTree = "<group>"; };
 		80863E2310D89C5100EDBC58 /* smallPauseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smallPauseButton.png; sourceTree = "<group>"; };
 		80863E2510D89C5500EDBC58 /* smallStopButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smallStopButton.png; sourceTree = "<group>"; };
+		80D88D3210DD48140095D9B3 /* caitlin-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "caitlin-button.png"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* TaylorSwift-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TaylorSwift-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -212,6 +214,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				80D88D3210DD48140095D9B3 /* caitlin-button.png */,
 				80863E1610D89BC800EDBC58 /* smallPlayButton.png */,
 				80863E2510D89C5500EDBC58 /* smallStopButton.png */,
 				80863E2310D89C5100EDBC58 /* smallPauseButton.png */,
@@ -379,6 +382,7 @@
 				80863E1710D89BC800EDBC58 /* smallPlayButton.png in Resources */,
 				80863E2410D89C5100EDBC58 /* smallPauseButton.png in Resources */,
 				80863E2610D89C5500EDBC58 /* smallStopButton.png in Resources */,
+				80D88D3310DD48140095D9B3 /* caitlin-button.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

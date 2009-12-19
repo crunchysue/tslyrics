@@ -29,7 +29,6 @@
 		
 	self.musicPlayer = [MPMusicPlayerController applicationMusicPlayer];
 	
-	
 	[self updatePlayState];
 	
 	[[NSNotificationCenter defaultCenter] addObserver:self 
@@ -37,7 +36,7 @@
 												 name:@"MPMusicPlayerControllerPlaybackStateDidChangeNotification" 
 											   object:musicPlayer];
 	
-	[[MPMusicPlayerController iPodMusicPlayer] beginGeneratingPlaybackNotifications];
+	[self.musicPlayer beginGeneratingPlaybackNotifications];
 	
 
 }
@@ -73,14 +72,14 @@
 	
 	MPMediaPropertyPredicate *songNamePredicate =
     [MPMediaPropertyPredicate predicateWithValue: self.songTitle
-                                     forProperty: MPMediaItemPropertyTitle];
+                                     forProperty: MPMediaItemPropertyTitle 
+								  comparisonType: MPMediaPredicateComparisonContains];
 	
 	MPMediaQuery *myComplexQuery = [[MPMediaQuery alloc] init];
 	
 	[myComplexQuery addFilterPredicate: artistNamePredicate];
 	[myComplexQuery addFilterPredicate: songNamePredicate];
 	
-	//MPMusicPlayerController *appMusicPlayer = [MPMusicPlayerController applicationMusicPlayer];	
 	[self.musicPlayer setRepeatMode: MPMusicRepeatModeOne];
 
 	[self.musicPlayer setQueueWithQuery: myComplexQuery];
@@ -95,7 +94,6 @@
 #pragma mark notification callbacks
 
 -(void) playbackStateChanged: (NSNotification*) notification {
-	NSLog(@"Just got notified that playback changed");
 	[self updatePlayState];
 }
 
@@ -110,19 +108,11 @@
 	}
 }
 
-- (void) updatePlayState {
-//	if (self.musicPlayer.playbackState == MPMusicPlaybackStatePlaying) {
-//		NSLog(@"in updatePlayState, state is PLAYING");
-//        [self.playPauseButton setBackgroundImage:[UIImage imageNamed:@"smallPlayButton.png"] forState:UIControlStateNormal];
-//    }
-//    else {
-//        [self.playPauseButton setBackgroundImage:[UIImage imageNamed:@"smallPauseButton.png"] forState:UIControlStateNormal];
-//		NSLog(@"in updatePlayState, state is NOT PLAYING");
-//    }
+- (void) updatePlayState {	
+	self.playPauseButton.selected = (self.musicPlayer.playbackState == MPMusicPlaybackStatePlaying); 
 }
 
 - (void) stopSong {
-	//MPMusicPlayerController *appMusicPlayer = [MPMusicPlayerController applicationMusicPlayer];
 	[self.musicPlayer stop];
 }
 
